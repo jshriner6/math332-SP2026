@@ -6,8 +6,8 @@ var ptx_lunr_docs = [
   "url": "labs.html",
   "type": "Article",
   "number": "",
-  "title": "Portfolio",
-  "body": " Portfolio   You are encouraged to use a typesetting application (like LaTeX or PreTeXt) for your final versions of your portfolio. Below are templates that can be copied of the questions that should be included from each chapter.          "
+  "title": "Homework",
+  "body": " Homework   Below are the homework assignments for our course.          "
 }
 ]
 
