@@ -2,12 +2,11 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="./docinfo.ptx" />
   <article xml:id="labs" >
-    <title>Portfolio</title>
+    <title>Homework</title>
     
     <introduction>
       <p>
-        You are encouraged to use a typesetting application (like LaTeX or PreTeXt) for your final versions of your 
-        portfolio. Below are templates that can be copied of the questions that should be included from each chapter.
+        Below are the homework assignments for our course.
       </p>
     </introduction>
 

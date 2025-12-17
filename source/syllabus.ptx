@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <article xml:id="syllabus">
-    <title>Advanced Calculus of One Variable: Spring 2026</title>
-    <subtitle>Math 317</subtitle>
+    <title>Partial Differential Equations: Spring 2026</title>
+    <subtitle>Math 332</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
@@ -23,13 +23,13 @@
             <li>
               <title>Time:</title>
               <p>
-                M/W/F, 2:00pm -- 2:50pm
+                M/W/F, 12:00pm -- 12:50pm
               </p>
             </li>
             <li>
               <title>Place:</title>
               <p>
-                Eddy 200
+                Weber 202
               </p>
             </li>
           </dl>       
@@ -67,7 +67,7 @@
             <li xml:id="item-office-hour">
               <title>Office Hours:</title>
               <p>
-                M/W 1:00pm -- 1:50pm, or by appointment
+                M/W 11:00am -- 12:00pm, or by appointment
               </p>
             </li>
           </dl>       
@@ -88,7 +88,7 @@
       <paragraphs>
           <title>Course Prerequisites</title>
           <p>
-          MATH 156 or MATH 161; CS 220 or MATH 230 or MATH 235
+          MATH 340 or MATH 345
           </p>
       </paragraphs>
 
@@ -99,11 +99,9 @@
               <title>Textbook</title>
               <p>
               We will use the free open-source text
-              <url href="https://danaernst.com/IBL-RealAnalysis/IBL-RealAnalysis.pdf">Introduction to Real Analysis</url> 
-              by Dana Ernst. It may be more accurate to say that this is our "workbook" for the course, as it is largely comprised
-              of problems that you will work through with your classmates to deepen your understanding of calculus topics and 
-              ultimately make it your own.  
-              You are encouraged to download a copy so that you have access without relying on internet.
+              <url href="https://math.libretexts.org/Bookshelves/Differential_Equations/Introduction_to_Partial_Differential_Equations_(Herman)">Introduction to Partial Differential Equations</url> 
+              by Russell Herman.   
+              You are encouraged to download a hard copy so that you have access without relying on internet.
               </p>
             </li>
             <li>
@@ -130,13 +128,34 @@
       <paragraphs>
           <title>Course Content and Structure</title>
           <p>
-            According to the course catalog, this course covers <q>Convergence of sequences, series: limits, continuity, differentiation, 
-              integration of one-variable functions.</q>. These topics may sound familiar from previous calculus courses.
-              This course will focus on helping you to better understand these concepts from Calculus I and II, 
-              specifically by creating proofs. While there are useful standards and techniques for proof writing, they are 
-              only useful when you make them your own.
-              Our goal will be to think more deeply and rigorously about familiar concepts by challenging ourselves to become
-              more effective communicators of technical information (both written and oral).
+            According to the course catalog, this course covers <q>Partial differential equations, separation of variables, Fourier series and transforms, 
+              Laplace, heat and wave equations.</q>. 
+           These broad topics boil down to investigating where partial differential equations (PDEs) come from,
+           how PDEs are classified (which corresponds to underlying physical phenomena and
+           the resulting behavior of solutions), and how PDEs can be solved analytically.
+            </p>
+            <p>
+           It turns
+    out that PDEs commonly appear when we want to mathematically
+    describe things that can be considered continua: how does a fluid
+    flow, how does a solid deform, how is heat transported within a
+    body? This is important in gaining an intuition about PDEs and
+    their solutions because many of the mathematical properties are
+    obviously true if you consider what the PDE describes, even if
+    the proof may not be trivial.
+            </p>
+            <p>
+  
+Like most practical ODEs,
+    PDEs can in general not be solved on a piece of paper by just
+    deriving a formula for the solution. This is particularly
+    true if you want a closed-form formula for the solution, but in
+    reality, in almost all cases, we can not even write the solution as infinite sums that
+    can be evaluated. However, there are important
+    cases where this can be done, and we will cover these
+    cases because they give us insight into more general solution
+    approaches (analytic or numeric) and because this is one way to
+    prove properties of solutions (such as smoothness or regularity).
           </p>
           
           
@@ -148,25 +167,20 @@
     <section xml:id="sec-grades" xmlns:xi="http://www.w3.org/2001/XInclude">
       <title>Assignments, Assessments, and Grades</title>
       <paragraphs xml:id="para-objectives">
-        <title>Portfolio Entries</title>
+        <title>Homework</title>
         <p>
           
         </p>
       </paragraphs>
 
       <paragraphs>
-        <title>Quizzes</title>
+        <title>Midterm</title>
         <p>
-          
-        </p>
-      </paragraphs>
-
-      <paragraphs>
-        <title>Midterms</title>
-        <p>
-              The first midterm is tentatively scheduled for Friday, February 27, in class. 
-              The second midterm is tentatively scheduled for Friday, April 17, in class.
+              The midterm is tentatively scheduled for Wednesday, March 11, in class. 
       </p>
+      <p>
+            <em>In general, makeup midterms will not be considered, unless you have a University excused absence. We will also consider requests from student case management.</em>
+          </p>
       
     
       </paragraphs>
@@ -174,15 +188,10 @@
       <paragraphs>
         <title>Final</title>
         <p>
-              The final exam is scheduled for Tuesday, May 12 from 7:30am -- 9:30am, in our normal classroom. 
+              The final exam is scheduled for Wednesday, May 13 from 7:30am -- 9:30am, in our normal classroom. 
             </p>
-            <p>
-              The final will be cumulative, split into three sections corresponding to content covered on the midterms and content not covered on the midterms.
-              We know that it can take time to learn new concepts. Therefore, if your percentage score in each of the first two sections exceeds your score on the corresponding midterm, we will replace that midterm score with your section score from the final. 
-            </p>
-            <p>
-            <em>In general, makeup midterms will be administered during the final exam, unless you have a University excused absence. We will also consider requests from student case management.</em>
-            </p>
+
+            
       </paragraphs>
 
       
@@ -190,10 +199,9 @@
         <title>Grades</title>
         <p> Overall grade percentages will be calculated based on the following weighting:
           <ul>
-              <li> Portfolio Entries (<m>25\%</m>) </li>
-              <li> Quizzes (<m>25\%</m>) </li>
-              <li> Midterms (<m>30\%</m>) </li>
-              <li> Final Exam (<m>20\%</m>) </li>
+              <li> Homework (<m>50\%</m>) </li>
+              <li> Midterm (<m>25\%</m>) </li>
+              <li> Final (<m>25\%</m>) </li>
           </ul>
         </p>
       
@@ -218,49 +226,49 @@
           <li>
             <title>Week 1</title>
             <p>
-              Introduction and Expectations, Elements of Style for Proof
+              Introduction and Expectations, First-Order PDEs, Linear Constant Coefficient Equations
             </p>
           </li>
           <li>
             <title>Week 2</title>
             <p>
-               Set Theory, Induction and Well-Ordering Principle
+               The Method of Characteristics, Applications
             </p>
           </li>
           <li>
             <title>Week 3</title>
             <p>
-              Functions
+              General First-Order PDEs, Second-Order PDEs, Heat and Wave Equation Derivations
             </p>
           </li>
           <li>
             <title>Week 4</title>
             <p>
-             Field Axioms, Order Axioms, Absolute Value and Triangle Inequality
+             Boundary Value Problems, Separation of Variables
             </p>
           </li>
           <li>
             <title>Week 5</title>
             <p>
-             Suprema/Infima, Completeness Axiom, Archimedean Property
+             Laplace's Equation, Classifications of Second-Order PDEs
             </p>
           </li>
           <li>
             <title>Week 6</title>
             <p>
-              Open Sets, Review, Midterm 1 
+              d'Alembert's Solution to Wave Equation, Fourier Series
             </p>
           </li>
           <li>
             <title>Week 7</title>
             <p>
-              Accumulation Points and Closed Sets, Compact and Connected Sets
+              Fourier Trigonometric Series, Fourier Series Over Other Intervals
             </p>
           </li>
           <li>
             <title>Week 8</title>
             <p>
-              Sequences, Convergent Sequences, Monotone Convergence Theorem
+              Sine and Cosine Series, Midterm, Solution to Heat Equation
             </p>
           </li>
           <li>
@@ -269,44 +277,44 @@
           <li>
             <title>Week 9</title>
             <p>
-              Subsequences, Continuity, Characterizations of Continuity
+              Finite Length Strings, Numerical Solutions to PDEs
             </p>
           </li>
           <li>
             <title>Week 10</title>
             <p>
-             Extreme Value Theorem, Intermediate Value Theorem, Uniform Continuity
+             Numerical Solutions Project, Sturm-Liouville Operators, Properties
             </p>
           </li>
           <li>
             <title>Week 11</title>
             <p>
-              Limits, Limit Laws, Differentiation
+              Properties, Eigenfunction Expansion Method, Function Spaces
             </p>
           </li>
           <li>
             <title>Week 12</title>
             <p>
-              Derivative Rules, Review, Midterm 2
+              Classical Orthogonal Polynomials, Fourier-Legendre Series
             </p>
           </li>
           <li>
             <title>Week 13</title>
             <p>
-              Mean Value Theorem, Integration
+              Fourier-Bessel Series, Curvilinear Coordinates, Vibrations of Rectangular Membranes
             </p>
           </li>
           
           <li>
             <title>Week 14</title>
             <p>
-              Integration, Properties of Integrals
+              Vibrations of a Kettle Drum, Laplace's Equation (2D), Cake Baking (3D)
             </p>
           </li>
           <li>
             <title>Week 15</title>
             <p>
-              Fundamental Theorem of Calculus, Review
+              Laplaces' Equation and Spherical Symmetry, Spherically Symmetric Vibrations
             </p>
           </li>
           <li>

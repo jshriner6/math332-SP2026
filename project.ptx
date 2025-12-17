@@ -10,9 +10,9 @@
     <target name="syllabus-print" source="syllabus.ptx" format="pdf"
             output-filename="syllabus.pdf" publication="publication-syllabus.ptx" />
 
-    <target name="portfolio-web" format="html" source="portfolio.ptx"
-            publication="publication.ptx" deploy-dir="portfolio" />
-    <target name="portfolio-print" format="pdf" source="portfolio.ptx"
+    <target name="homework-web" format="html" source="homework.ptx"
+            publication="publication.ptx" deploy-dir="homework" />
+    <target name="homework-print" format="pdf" source="homework.ptx"
             output-filename="activities.pdf" publication="publication.ptx" />
 
     <target name="notes-web" format="html" source="notes.ptx"
