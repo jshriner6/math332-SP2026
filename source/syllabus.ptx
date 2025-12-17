@@ -23,13 +23,13 @@
             <li>
               <title>Time:</title>
               <p>
-                M/W/F, 12:00pm -- 12:50pm
+                M/W/F, 2:00pm -- 2:50pm
               </p>
             </li>
             <li>
               <title>Place:</title>
               <p>
-                Engineering E203
+                Eddy 200
               </p>
             </li>
           </dl>       
@@ -67,7 +67,7 @@
             <li xml:id="item-office-hour">
               <title>Office Hours:</title>
               <p>
-                M/W 11:00am -- 11:50am, or by appointment
+                M/W 1:00pm -- 1:50pm, or by appointment
               </p>
             </li>
           </dl>       
@@ -88,7 +88,7 @@
       <paragraphs>
           <title>Course Prerequisites</title>
           <p>
-          MATH 156 or MATH 161 or MATH 255 or MATH 271
+          MATH 156 or MATH 161; CS 220 or MATH 230 or MATH 235
           </p>
       </paragraphs>
 
@@ -98,11 +98,12 @@
             <li>
               <title>Textbook</title>
               <p>
-              We will use the free open-access text
-              <url href="https://understandinglinearalgebra.org/home.html">Understanding Linear Algebra</url> 
-              by David Austin. 
-              You should have access to this textbook during our class meetings. The HTML version (<q>Read Online</q>) provides
-              the most interactive experience, and is what will be referenced most often in class.
+              We will use the free open-source text
+              <url href="https://danaernst.com/IBL-RealAnalysis/IBL-RealAnalysis.pdf">Introduction to Real Analysis</url> 
+              by Dana Ernst. It may be more accurate to say that this is our "workbook" for the course, as it is largely comprised
+              of problems that you will work through with your classmates to deepen your understanding of calculus topics and 
+              ultimately make it your own.  
+              You are encouraged to download a copy so that you have access without relying on internet.
               </p>
             </li>
             <li>
@@ -113,13 +114,7 @@
               checked for communications at least once each week day.
               </p>
             </li>
-            <li>
-              <title><webwork /></title>
-              <p>
-                <url href="https://wuzzy.natsci.colostate.edu/webwork2/FA-MATH-369"><webwork /> </url> is a (free) online homework system that you will use regularly to complete assignments that 
-                provide an opportunity for you to practice important skills required for success in this course.  <webwork /> provides immediate feedback on your work as well as the chance to attempt problems multiple times. 
-              </p> 
-            </li>
+      
           </dl>
         
           <p>
@@ -135,19 +130,15 @@
       <paragraphs>
           <title>Course Content and Structure</title>
           <p>
-            According to the course catalog, this course covers <q>Linear systems, matrices, subspaces of Euclidean spaces, 
-              linear transformations on Euclidean spaces, eigenvalues, eigenvectors</q>. These topics may sound abstract
-              (and can certainly be presented that way), but also have deep and meaningful applications to the world around
-              us. Our goal will be to understand these topics as mathematical objects, but also give proper attention to 
-              their usefulness around us. 
+            According to the course catalog, this course covers <q>Convergence of sequences, series: limits, continuity, differentiation, 
+              integration of one-variable functions.</q>. These topics may sound familiar from previous calculus courses.
+              This course will focus on helping you to better understand these concepts from Calculus I and II, 
+              specifically by creating proofs. While there are useful standards and techniques for proof writing, they are 
+              only useful when you make them your own.
+              Our goal will be to think more deeply and rigorously about familiar concepts by challenging ourselves to become
+              more effective communicators of technical information (both written and oral).
           </p>
-          <p>
-              The mathematician Carl Cowen said that “no significant use of linear algebra happens without a computer”, so we'll also
-              give attention to developing our ability to deploy linear algebraic thinking to solve realistic problems using a computer.
-              Our daily course meetings will emphasize active learning and a collaborative work environment. Please come to each meeting
-              prepared with any preparatory work, a device to access our course textbook and activities, and a willingness to actively
-              participate.
-          </p>
+          
           
       </paragraphs>
 
@@ -157,207 +148,51 @@
     <section xml:id="sec-grades" xmlns:xi="http://www.w3.org/2001/XInclude">
       <title>Assignments, Assessments, and Grades</title>
       <paragraphs xml:id="para-objectives">
-        <title>Learning Objectives</title>
+        <title>Portfolio Entries</title>
         <p>
-          Our assignments and assessments will emphasize the following learning objectives:
-          <ol marker="LO 1.">
-            <li>
-              <p>
-                I visited an <xref ref="item-office-hour" text="custom">office hour</xref> in the first 4 weeks of class. 
-              </p>
-            </li>
-            <li>
-              <p>
-                I can execute the next 2-3 steps of Gaussian elimination by hand that are needed to work toward RREF (and recognize that additional steps are needed to achieve RREF), 
-                and identify which row operations were used. (Section 1.2)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can use information about pivots to make conclusions about the solutions of a system of linear equations, and explain the underlying reasoning (using appropriate terminology) regarding the existence and uniqueness of solutions and consistency or inconsistency of a system. (Section 1.4)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can determine if and how a given vector can be written as a linear combination of a given set of vectors and explain what this means geometrically. (Section 2.1)
-              </p>
-            </li>
-            <li>
-              <p>
-                 I can represent a linear system in three different ways and be able to translate back and forth among the forms:  as Ax = b, as a question about linear combinations, and as a question about an augmented matrix. (Section 2.2 - <url href="https://understandinglinearalgebra.org/sec-matrices-lin-combs.html#prop-matrix-eq-solution">Proposition 2.2.4</url>) 
-              </p>
-            </li>
-            <li>
-              <p>
-                I can reformulate and answer questions about span in terms of linear combinations, matrix equations, and geometrically. (Section 2.3)
-
-              </p>
-            </li>
-            <li>
-              <p>
-                I can reformulate and answer questions about linearly dependent or linearly independent vectors using appropriate computations, and explain the meaning of the results of computations in the language of linear combinations. (Section 2.4)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can find the matrix of a linear transformation using elementary vectors, apply a transformation to a vector or shape, and compose transformations using matrix multiplication.  (Section 2.5)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can determine if a matrix is invertible, find an inverse, and use inverses to solve matrix equations. (Section 3.1)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can determine whether or not a set of vectors is a basis for <m>\mathbb{R}^n</m>, and give examples and non-examples of bases. (Section 3.2)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can convert a vector given in the standard basis into a vector in another basis and vice versa. (Section 3.2)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can find the determinant of a given matrix using cofactor expansion and explain what information this tells us about the invertibility of a matrix. (Section 3.4)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can find and clearly justify  bases for the null space and the column space of a matrix (including why the set of vectors is a basis, i.e., why it  is  linearly independent and spans the relevant spaces) and thus their dimensions. (Section 3.5)
-              </p>
-            </li>
-            <li>
-              <p>
-                I can verify that a vector is an eigenvector algebraically and explain what this means about the vector geometrically. (Section 4.1)
-
-              </p>
-            </li>
-            <li>
-              <p>
-                I can use the characteristic polynomial of a matrix <m>A</m> to identify its eigenvalues, and then find a basis of eigenvectors for each associated eigenspace and, if there is a basis of eigenvectors for <m>\mathbb{R}^n</m>, use such a basis to describe the matrix product <m>A\mathbf{x}</m>. (Section 4.2)
-              </p>
-            </li>
-          </ol>
-        </p>
-      </paragraphs>
-
-      <paragraphs>
-        <title>Daily Preparation</title>
-        <p>
-          Before many class meetings, you will be asked to do some work to help prepare for our time together in class.  This will often involve working a few short problems and providing me with
-          feedback on your preparation. These will be graded according to the effort you have put into them rather than correctness.
-        </p>
-      </paragraphs>
-
-      <paragraphs>
-        <title>Online Practice</title>
-        <p> You will have weekly online practice assignments on
-          <url href="https://wuzzy.natsci.colostate.edu/webwork2/FA-MATH-369"><webwork /> </url>.
-          They will typically be due on Mondays by 11:59 pm MT. Online practice assignments are an opportunity to make mistakes and learn from them. 
-          You can attempt a problem multiple times before the due date. Your allowed attempts are finite, so please start assignments early and ask questions when you get a problem incorrect on your initial attempts. I will likely not be available for communication the evening of the due date, 
-          so please start early and plan to use help resources when they are available!
-        </p>
-      
-        <p>
-        Your initial login credentials will be your eID in all lowercase (Username) and your 9-digit student ID (Password). 
-        Please change your password after your initial login. If you have issues with logging in, please let me know as soon
-        as possible so you do not fall behind.
-        </p>
-      </paragraphs>
-
-      <paragraphs>
-        <title>Labs</title>
-        <p>
-          About 6 times throughout the semester, you'll start a <q>lab</q> in class that you'll complete and write up outside of 
-          class for a formal grade. Labs are more involved activities that 
-          help explore certain topics more deeply. Normally these will be done in groups of 2 or 3 and assigned a single group grade.
+          
         </p>
       </paragraphs>
 
       <paragraphs>
         <title>Quizzes</title>
         <p>
-          We will have weekly proficiency quizzes addressing the <xref ref="para-objectives" text="custom">list of learning objectives</xref> 
-          that measure your understanding of certain essential skills you need to build a deep understanding of linear algebra.  
+          
         </p>
-        <p>
-          Most Fridays, we will have an in-class quiz that assesses a subset of these skills, which will be announced in advance.
-          Each skill will be graded as either <q>P</q> for  <q>Proficient</q> or <q>NY</q> for <q>not yet</q>.  To earn a <q>P</q>, your solution needs to show all work and explanations, use correct notation, and arrive at a correct answer. In short, your work should be close to perfect.
-          Once you have demonstrated proficiency on a learning objective, you do not need to do so again.
-          If you don't demonstrate proficiency on a particular objective on a particular quiz, you can try again the next week.  I won't provide a lot of detailed feedback because it's very helpful for you to learn to assess your work independently of me. I am happy to talk with you about any of your work on the quizzes.
-          Each objective will appear on three quizzes. Since you have multiple attempts on each objective, there in general will be no makeup quizzes.
-          If you still haven't demonstrated proficiency after your third attempt, you are welcome to talk with me about it.
-          Your grade for this component will be the percentage of the learning objectives for which you have demonstrated proficiency.
-        </p>
-        <p>
-          This is a very important component of our course for the following reasons:
-          <ul>
-            <li>
-              <p>
-                Learning is a process. You will not be penalized if you don't demonstrate proficiency in a skill the first time, but you are expected to do so eventually.
-              </p>
-            </li>
-            <li>
-              <p>
-                Frequent  assessment is good for learning.  Think of these quizzes as a tool for learning rather than just assessment. 
-              </p>
-            </li>
-            <li>
-              <p>
-                Keeping up with course material is important.  These quizzes will be one way of informing both you and me about your progress in the course.
-              </p>
-            </li>
-            <li>
-              <p>
-                Knowing the basics well is crucial for tackling more in-depth problems. These objectives were chosen because they are fundamental so you should think of them as building blocks.  You will have time to practice these skills before, during, and after class, but we will also spend class time using them to tackle substantial problems.  
-              </p>
-            </li>
-          </ul>  
-        </p>
-
       </paragraphs>
 
       <paragraphs>
-        <title>Exams</title>
+        <title>Midterms</title>
         <p>
-          We will have one in-class midterm approximately half-way through the semester, and one cumulative final exam
-          during finals week.
-        </p>
-        <dl>
-          <li>
-            <title>Midterm</title>
-            <p>
-              The midterm is tentatively scheduled for Friday, October 17, in class. It will cover topics from the first
-              6 weeks of class (roughly chapters 1 and 2).
-            </p>
-          </li>
-          <li>
-            <title>Final</title>
-            <p>
-              The final exam is scheduled for Monday, December 15 from 11:50am -- 1:50pm, in our normal classroom. 
+              The first midterm is tentatively scheduled for Friday, February 27, in class. 
+              The second midterm is tentatively scheduled for Friday, April 17, in class.
+      </p>
+      
+    
+      </paragraphs>
+
+      <paragraphs>
+        <title>Final</title>
+        <p>
+              The final exam is scheduled for Tuesday, May 12 from 7:30am -- 9:30am, in our normal classroom. 
             </p>
             <p>
-              The final will be cumulative, split into two sections corresponding to content covered on the midterm and content not covered on the midterm.
-              We know that it can take time to learn new concepts. Therefore, if your percentage score in the first section exceeds your score on the midterm, we will replace your midterm score with your section score from the final. 
+              The final will be cumulative, split into three sections corresponding to content covered on the midterms and content not covered on the midterms.
+              We know that it can take time to learn new concepts. Therefore, if your percentage score in each of the first two sections exceeds your score on the corresponding midterm, we will replace that midterm score with your section score from the final. 
             </p>
             <p>
             <em>In general, makeup midterms will be administered during the final exam, unless you have a University excused absence. We will also consider requests from student case management.</em>
             </p>
-          </li>
-        </dl>
-        
       </paragraphs>
+
+      
       <paragraphs>
         <title>Grades</title>
         <p> Overall grade percentages will be calculated based on the following weighting:
           <ul>
-              <li> Daily Prep (<m>10\%</m>) </li>
-              <li> Labs (<m>15\%</m>) </li>
-              <li> <webwork /> (<m>15\%</m>) </li>
-              <li> Learning Objectives (Quizzes) (<m>20\%</m>) </li>
-              <li> Midterm (<m>20\%</m>) </li>
+              <li> Portfolio Entries (<m>25\%</m>) </li>
+              <li> Quizzes (<m>25\%</m>) </li>
+              <li> Midterms (<m>30\%</m>) </li>
               <li> Final Exam (<m>20\%</m>) </li>
           </ul>
         </p>
@@ -383,94 +218,95 @@
           <li>
             <title>Week 1</title>
             <p>
-              Introduction and Expectations, Introduction to Linear Systems (<m>\S 1.1</m>), Gaussian Elimination (<m>\S 1.2</m>)
+              Introduction and Expectations, Elements of Style for Proof
             </p>
           </li>
           <li>
             <title>Week 2</title>
             <p>
-              Reduced Row Echelon Form (<m>\S 1.2</m>), Introduction to Sage (<m>\S 1.3</m>)
+               Set Theory, Induction and Well-Ordering Principle
             </p>
           </li>
           <li>
             <title>Week 3</title>
             <p>
-              Lab 1: Systems of Equations (<m>\S 1.4</m>), Linear Combinations (<m>\S 2.1</m>)
+              Functions
             </p>
           </li>
           <li>
             <title>Week 4</title>
             <p>
-              Matrix Multiplication (<m>\S 2.2</m>), Span (<m>\S 2.3</m>)
+             Field Axioms, Order Axioms, Absolute Value and Triangle Inequality
             </p>
           </li>
           <li>
             <title>Week 5</title>
             <p>
-              Span (<m>\S 2.3</m>), Lab 2: Markov Chains, Linear Independence (<m>\S 2.4</m>)
+             Suprema/Infima, Completeness Axiom, Archimedean Property
             </p>
           </li>
           <li>
             <title>Week 6</title>
             <p>
-              Linear Independence (<m>\S 2.4</m>), Matrix Transformations (<m>\S 2.5</m>)
+              Open Sets, Review, Midterm 1 
             </p>
           </li>
           <li>
             <title>Week 7</title>
             <p>
-              Lab 3: Computer Animation (<m>\S 2.6</m>), Invertible Matrices (<m>\S 3.1</m>)
+              Accumulation Points and Closed Sets, Compact and Connected Sets
             </p>
           </li>
           <li>
             <title>Week 8</title>
             <p>
-              Bases (<m>\S 3.2</m>), Midterm
+              Sequences, Convergent Sequences, Monotone Convergence Theorem
             </p>
+          </li>
+          <li>
+            <title>Spring Recess</title>
           </li>
           <li>
             <title>Week 9</title>
             <p>
-              Bases (<m>\S 3.2</m>, <m>\S 3.3</m>), Lab 4: Image Compression (<m>\S 3.3</m>), Determinants (<m>\S 3.4</m>)
+              Subsequences, Continuity, Characterizations of Continuity
             </p>
           </li>
           <li>
             <title>Week 10</title>
             <p>
-              Determinants (<m>\S 3.4</m>), Subspaces (<m>\S 3.5</m>)
+             Extreme Value Theorem, Intermediate Value Theorem, Uniform Continuity
             </p>
           </li>
           <li>
             <title>Week 11</title>
             <p>
-              Introduction to Eigenvalues and Eigenvectors (<m>\S 4.1</m>), Finding Eigenvalues and Eigenvectors (<m>\S 4.2</m>), Diagonalization (<m>\S 4.3</m>)
+              Limits, Limit Laws, Differentiation
             </p>
           </li>
           <li>
             <title>Week 12</title>
             <p>
-              Dynamical Systems (<m>\S 4.4</m>), Lab 5: Dynamical Systems (<m>\S 4.4</m>), Diagonalization (<m>\S 4.3</m>)
+              Derivative Rules, Review, Midterm 2
             </p>
           </li>
           <li>
             <title>Week 13</title>
             <p>
-              Stochastic Matrices and Markov Chains (<m>\S 4.5</m>), Lab 6: Google PageRank (<m>\S 4.5</m>), Eigenvector Review
+              Mean Value Theorem, Integration
             </p>
           </li>
-          <li>
-            <title>Fall Recess</title>
-          </li>
+          
           <li>
             <title>Week 14</title>
             <p>
-              Gaussian Elimination Revisted (<m>\S 5.1</m>), Power Method (<m>\S 5.2</m>)
+              Integration, Properties of Integrals
             </p>
           </li>
           <li>
             <title>Week 15</title>
             <p>
-              Cumulative Review
+              Fundamental Theorem of Calculus, Review
             </p>
           </li>
           <li>
