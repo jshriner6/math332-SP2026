@@ -6,13 +6,19 @@
     
     <introduction>
       <p>
-        Below are the homework assignments for our course.
+        Your final homework submissions should be a professional-looking product that demonstrates significant 
+        effort in arriving at solutions, and thoughtfulness in how that solution is organized and presented. While collaboration
+        with your peers is allowed and encouraged, your final write-up should be done individually without consulting others. Therefore, 
+        your final solutions should not closely resemble someone else's, or a solution that is on the internet or in a book. Refer to 
+        <url href="https://jshriner6.github.io/math332-SP2026/syllabus/syllabus.html#sec-policies-10">the syllabus statement on Academic Integrity and the Honor Code</url>
+        for how we will handle cases of academic dishonesty.
       </p>
     </introduction>
 
-    <!--
-    <xi:include href="./labs/lab1.ptx" xpointer="lab-1" />
-    <xi:include href="./labs/lab2.ptx" xpointer="lab-2" /> 
+
+    
+    <xi:include href="./homework/hw-1.ptx" xpointer="hw-1" />
+ <!--   <xi:include href="./labs/lab2.ptx" xpointer="lab-2" /> 
     <xi:include href="./labs/lab3.ptx" xpointer="lab-3" /> 
     <xi:include href="./labs/lab4.ptx" xpointer="lab-4" /> 
     <xi:include href="./labs/lab5.ptx" xpointer="lab-5" /> 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-1">
+            <title>Homework 1</title>
+        
+        <exercise workspace="2in">
+            <title>Page ##, Exercise ##</title>
+            <statement>
+                <p>
+                    This is the exercise statement. If multiple parts, use. tasks and get ride of this.
+                </p>
+            </statement>
+            
+        </exercise>
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>
