@@ -1,13 +1,22 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "labs",
+  "id": "hw-1",
   "level": "1",
-  "url": "labs.html",
-  "type": "Article",
+  "url": "hw-1.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Homework",
-  "body": " Homework   Below are the homework assignments for our course.          "
+  "title": "Homework 1",
+  "body": " Homework 1   Page ##, Exercise ##   This is the exercise statement. If multiple parts, use. tasks and get ride of this.    "
+},
+{
+  "id": "hw-1-2",
+  "level": "2",
+  "url": "hw-1.html#hw-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Page ##, Exercise ##.",
+  "body": " Page ##, Exercise ##   This is the exercise statement. If multiple parts, use. tasks and get ride of this.   "
 }
 ]
 
