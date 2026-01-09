@@ -14,10 +14,10 @@
     
 
     <xi:include href="./notes/intro.ptx" xpointer="intro" /> 
-   <!-- <xi:include href="./notes/intro-sols.ptx" xpointer="intro-sols" />
+   <!-- <xi:include href="./notes/intro-sols.ptx" xpointer="intro-sols" /> -->
 
-    <xi:include href="./notes/sec-1-1.ptx" xpointer="sec-1-1" /> 
-    <xi:include href="./notes/sec-1-1-sols.ptx" xpointer="sec-1-1-sols" />
+    <xi:include href="./notes/sec-1-1-and-1-2.ptx" xpointer="sec-1-1" /> 
+  <!--  <xi:include href="./notes/sec-1-1-sols.ptx" xpointer="sec-1-1-sols" />
 
     <xi:include href="./notes/sec-1-2-1.ptx" xpointer="sec-1-2-1" /> 
     <xi:include href="./notes/sec-1-2-1-sols.ptx" xpointer="sec-1-2-1-sols" /> 

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-1-1">
+        <title><m>\S 1.1 / 1.2</m>: Linear First-Order PDEs with Constant Coefficients</title>
+    <page>
+        <exercise workspace="2in">
+            <title>Motivation: First-Order PDEs</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="6in">
+            <title>Order</title>
+			<statement>
+				<p>
+					Recall, an <term><m>n^{th}</m> order ODE</term> is an equation
+				</p>
+			</statement>
+      </exercise>
+
+     </page>
+    
+    
+    <page>
+
+        <exercise workspace="1in">
+            <title>Definition: Linear </title>
+            <statement>
+                <p>
+                    A <term>linear</term> first-order PDE has the form 
+                </p>
+            </statement>
+        </exercise> 
+            
+
+		<exercise workspace="1in">
+            <title>Definition: Quasilinear </title>
+            <statement>
+                <p>
+                    A <term>quasilinear</term> first-order PDE has the form 
+                </p>
+            </statement>
+            
+            
+        </exercise>
+    
+        
+    </page>
+    <page>
+        <exercise workspace=".25in">
+            <title>Review: Integrating Factors</title>
+            
+            <statement>
+				<p>
+					The general form of a first-order linear ODE is given by
+					<me>
+						ay' + by = f(x)
+					</me>.
+					
+				</p>
+      
+      		</statement>
+      
+            
+        </exercise>
+	</page>
+	<page>
+
+        <exercise workspace=".5in">
+            <title>Linear First-Orde PDEs with Constant Coefficients</title>
+            <statement>
+                <p>
+                    The general form of a first-order linear PDE is given by
+					<me>
+						au_x + bu_y + cu = f(x,y)
+					</me>,
+					where <m>a^2 + b^2 \gt 0</m>.
+                </p>
+            </statement>
+            
+            
+        </exercise>
+
+    </page>
+    <page>
+
+        <exercise workspace="1in">
+            <title>Example: General Solutions to First-Order PDEs with constant coefficients</title>
+            <introduction>
+                <p>
+                    Find the general solution to 
+					<md>
+						3u_x - 2u_y + u =x
+					</md>.
+					
+                </p>
+            </introduction>
+			<task workspace="0.5in">
+				<statement>
+					<p>
+						Identify the values of <m>a, b, c, f(x,y)</m>.
+					</p>
+				</statement>
+			</task>
+
+			<task workspace="0.5in">
+				<statement>
+					<p>
+						Re-write the PDE under the transformation <m>w=bx-ay</m>, <m>z=y</m>.
+					</p>
+				</statement>
+			</task>
+			
+			<task workspace="0.5in">
+				<statement>
+					<p>
+						Identify the integrating factor <m>\mu</m> to be used to solve the previous PDE.
+					</p>
+				</statement>
+			</task>
+
+			<task workspace="1in">
+				<statement>
+					<p>
+						Write down a version of the solution <m>v(w,z)</m> containing an integral.
+					</p>
+				</statement>
+			</task>
+
+			<task workspace="1in">
+				<statement>
+					<p>
+						Solve the integral <md>
+							\frac{1}{4}\int (w + 3z)e^{\frac{-z}{2}} \quad dz
+						</md>.
+						
+					</p>
+				</statement>
+			</task>
+            
+			<task workspace="0.5in">
+				<statement>
+					<p>
+						Write down a version of the solution <m>v(w,z)</m> containing no integrals.
+					</p>
+				</statement>
+			</task>
+
+			<task workspace="0.5in">
+				<statement>
+					<p>
+						Write down the solution <m>u(x,y)</m>.
+					</p>
+				</statement>
+			</task>
+            
+        </exercise>
+
+        
+    </page>
+
+        </worksheet>
+    </article>
+</pretext>

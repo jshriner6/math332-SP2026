@@ -6,10 +6,28 @@
             <title>Homework 1</title>
         
         <exercise workspace="2in">
-            <title>Page ##, Exercise ##</title>
             <statement>
                 <p>
-                    This is the exercise statement. If multiple parts, use. tasks and get ride of this.
+                    Find the general solution <m>u(x,y)</m> to the following PDEs:
+                    <ol>
+                        <li>
+                            <p>
+                                <m>u_x = 0</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>2u_x + 3u_y = 1</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>u_x + u_y = u</m>
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </statement>
             
