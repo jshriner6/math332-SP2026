@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 1",
-  "body": " Homework 1   Page ##, Exercise ##   This is the exercise statement. If multiple parts, use. tasks and get ride of this.    "
+  "body": " Homework 1    Find the general solution to the following PDEs:                     "
 },
 {
   "id": "hw-1-2",
@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "hw-1.html#hw-1-2",
   "type": "Worksheet Exercise",
   "number": "1",
-  "title": "Page ##, Exercise ##.",
-  "body": " Page ##, Exercise ##   This is the exercise statement. If multiple parts, use. tasks and get ride of this.   "
+  "title": "",
+  "body": "  Find the general solution to the following PDEs:                    "
 }
 ]
 

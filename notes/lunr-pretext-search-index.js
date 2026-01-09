@@ -6,8 +6,8 @@ var ptx_lunr_docs = [
   "url": "intro.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction and Setting the Stage",
-  "body": " Introduction and Setting the Stage    Why?   Linear algebra provides the language and tools for:     How?  Our approach to learning linear algebra will include the following aspects:    Setting the Stage   On the grid below, you may only move vertically\/horizontally, and you must move exactly 2 spaces at a time. In groups, determine if it is possible to begin on the \"start\" square and end on the \"finish\" square.   Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".        Two more grids   Repeate the previous task for the two grids below    Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and the square in row 3 column 4 is labeled with \"Finish\".    Grid with 5 rows and 5 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".       "
+  "title": "Introduction",
+  "body": " Introduction    Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe     How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:      Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          Trigonometric Functions    Derivative Functions    Partial Derivative Functions    Integrals    Series Representations      Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.          First-order ODE    Separable ODE    Linear first and second-order ODEs    Integrating Factor    Characteristic polynomial    Homogeneous ODE      "
 },
 {
   "id": "xr-why",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Why?",
-  "body": " Why?   Linear algebra provides the language and tools for:   "
+  "body": " Why?   Mathematical structures can seem abstract, but they are often motivated by our desire to describe   "
 },
 {
   "id": "xr-how",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "How?",
-  "body": " How?  Our approach to learning linear algebra will include the following aspects:  "
+  "body": " How?  Let's note the subtleties to be considered, all of which contribute to the difficulty of PDE's:  "
 },
 {
   "id": "xr-set-stage",
@@ -33,17 +33,89 @@ var ptx_lunr_docs = [
   "url": "intro.html#xr-set-stage",
   "type": "Worksheet Exercise",
   "number": "3",
-  "title": "Setting the Stage.",
-  "body": " Setting the Stage   On the grid below, you may only move vertically\/horizontally, and you must move exactly 2 spaces at a time. In groups, determine if it is possible to begin on the \"start\" square and end on the \"finish\" square.   Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".    "
+  "title": "Pre-Req Group Activity (Calculus).",
+  "body": " Pre-Req Group Activity (Calculus)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
 },
 {
-  "id": "xr-set-stage2",
+  "id": "intro-3-3",
   "level": "2",
-  "url": "intro.html#xr-set-stage2",
+  "url": "intro.html#intro-3-3",
   "type": "Worksheet Exercise",
   "number": "4",
-  "title": "Two more grids.",
-  "body": " Two more grids   Repeate the previous task for the two grids below    Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and the square in row 3 column 4 is labeled with \"Finish\".    Grid with 5 rows and 5 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".     "
+  "title": "Pre-Req Group Activity (ODEs).",
+  "body": " Pre-Req Group Activity (ODEs)   For each vocabulary word below, discuss   an informal definition of each word, and    what you remember about its importance in previous classes.      "
+},
+{
+  "id": "sec-1-1",
+  "level": "1",
+  "url": "sec-1-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 1.1 \/ 1.2\\text{:}\\)<\/span> Linear First-Order PDEs with Constant Coefficients",
+  "body": " : Linear First-Order PDEs with Constant Coefficients    Motivation: First-Order PDEs        Order   Recall, an order ODE is an equation       Definition: Linear   A linear first-order PDE has the form     Definition: Quasilinear   A quasilinear first-order PDE has the form       Review: Integrating Factors   The general form of a first-order linear ODE is given by .       Linear First-Orde PDEs with Constant Coefficients   The general form of a first-order linear PDE is given by , where .       Example: General Solutions to First-Order PDEs with constant coefficients   Find the general solution to .     Identify the values of .      Re-write the PDE under the transformation , .      Identify the integrating factor to be used to solve the previous PDE.      Write down a version of the solution containing an integral.      Solve the integral .      Write down a version of the solution containing no integrals.      Write down the solution .      "
+},
+{
+  "id": "sec-1-1-2-1",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: First-Order PDEs.",
+  "body": " Motivation: First-Order PDEs      "
+},
+{
+  "id": "sec-1-1-2-2",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Order.",
+  "body": " Order   Recall, an order ODE is an equation   "
+},
+{
+  "id": "sec-1-1-3-1",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Linear.",
+  "body": " Definition: Linear   A linear first-order PDE has the form   "
+},
+{
+  "id": "sec-1-1-3-2",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definition: Quasilinear.",
+  "body": " Definition: Quasilinear   A quasilinear first-order PDE has the form   "
+},
+{
+  "id": "sec-1-1-4-1",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Review: Integrating Factors.",
+  "body": " Review: Integrating Factors   The general form of a first-order linear ODE is given by .   "
+},
+{
+  "id": "sec-1-1-5-1",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-5-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Linear First-Orde PDEs with Constant Coefficients.",
+  "body": " Linear First-Orde PDEs with Constant Coefficients   The general form of a first-order linear PDE is given by , where .   "
+},
+{
+  "id": "sec-1-1-6-1",
+  "level": "2",
+  "url": "sec-1-1.html#sec-1-1-6-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example: General Solutions to First-Order PDEs with constant coefficients.",
+  "body": " Example: General Solutions to First-Order PDEs with constant coefficients   Find the general solution to .     Identify the values of .      Re-write the PDE under the transformation , .      Identify the integrating factor to be used to solve the previous PDE.      Write down a version of the solution containing an integral.      Solve the integral .      Write down a version of the solution containing no integrals.      Write down the solution .    "
 }
 ]
 
