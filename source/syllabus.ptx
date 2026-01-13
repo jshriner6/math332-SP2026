@@ -175,7 +175,7 @@ Like most practical ODEs,
         <title>Homework</title>
         <p>
           Working exercises and asking questions is an important way to engage in our course content. Exercises will be assigned 
-          and due weekly, typically on Fridays before our class meetings. 
+          and due bi-weekly, typically due on Fridays of even weeks before our class meetings. 
         </p>
         <p>
           Making mistakes and correcting them is also an important part of the learning process. Therefore, if you make appropriate
@@ -237,19 +237,19 @@ Like most practical ODEs,
           <li>
             <title>Week 1</title>
             <p>
-              Introduction and Expectations, First-Order PDEs, Linear Constant Coefficient Equations
+              Introduction and Expectations, First-Order PDEs Introduction
             </p>
           </li>
           <li>
             <title>Week 2</title>
             <p>
-               The Method of Characteristics, Applications
+               Linear Constant Coefficient Equations, The Method of Characteristics
             </p>
           </li>
           <li>
             <title>Week 3</title>
             <p>
-              General First-Order PDEs, Second-Order PDEs, Heat and Wave Equation Derivations
+              Applications, Second-Order PDEs Introduction
             </p>
           </li>
           <li>
@@ -325,7 +325,7 @@ Like most practical ODEs,
           <li>
             <title>Week 15</title>
             <p>
-              Laplaces' Equation and Spherical Symmetry, Spherically Symmetric Vibrations
+              Laplace's Equation and Spherical Symmetry, Spherically Symmetric Vibrations
             </p>
           </li>
           <li>
