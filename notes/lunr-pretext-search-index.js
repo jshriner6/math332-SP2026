@@ -116,6 +116,87 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "Example: General Solutions to First-Order PDEs with constant coefficients.",
   "body": " Example: General Solutions to First-Order PDEs with constant coefficients   Find the general solution to .     Identify the values of .      Re-write the PDE under the transformation , .      Identify the integrating factor to be used to solve the previous PDE.      Write down a version of the solution containing an integral.      Solve the integral .      Write down a version of the solution containing no integrals.      Write down the solution .    "
+},
+{
+  "id": "sec-1-3",
+  "level": "1",
+  "url": "sec-1-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 1.3\\text{:}\\)<\/span> The Method of Characteristics",
+  "body": " : The Method of Characteristics   Motivation: Characteristics    The Geometry of Characteristics   Recall, a first-order quasilinear PDE has the form , or equivalently:     How do characteristics help us solve PDEs?    Example 1: Constant Coefficients   Find the general solution to .     Exercise: Constant Coefficients   Find the general solution to .     Example: Finding Particular Solutions   Find the solution to subject to .     Exercise: Finding Particular Solutions   Find solutions of subject to         on         Visualizing Initial Conditions   The solution surface for part (a) is  Graph of the solution surface showing characteristic curves and initial condition.      "
+},
+{
+  "id": "sec-1-3-2",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Characteristics.",
+  "body": " Motivation: Characteristics  "
+},
+{
+  "id": "sec-1-3-3",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Geometry of Characteristics.",
+  "body": " The Geometry of Characteristics   Recall, a first-order quasilinear PDE has the form , or equivalently:   "
+},
+{
+  "id": "sec-1-3-4",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "How do characteristics help us solve PDEs?",
+  "body": " How do characteristics help us solve PDEs?  "
+},
+{
+  "id": "sec-1-3-5",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example 1: Constant Coefficients.",
+  "body": " Example 1: Constant Coefficients   Find the general solution to .   "
+},
+{
+  "id": "sec-1-3-6",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Exercise: Constant Coefficients.",
+  "body": " Exercise: Constant Coefficients   Find the general solution to .   "
+},
+{
+  "id": "sec-1-3-7",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example: Finding Particular Solutions.",
+  "body": " Example: Finding Particular Solutions   Find the solution to subject to .   "
+},
+{
+  "id": "sec-1-3-8",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Exercise: Finding Particular Solutions.",
+  "body": " Exercise: Finding Particular Solutions   Find solutions of subject to         on       "
+},
+{
+  "id": "sec-1-3-9",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-9",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Visualizing Initial Conditions.",
+  "body": " Visualizing Initial Conditions   The solution surface for part (a) is  Graph of the solution surface showing characteristic curves and initial condition.     "
 }
 ]
 
