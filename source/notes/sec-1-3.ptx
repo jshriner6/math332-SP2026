@@ -3,29 +3,83 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-1-3">
-        <title><m>\S 1.3</m>: Computation with Sage</title>
-            <page>
-                <exercise workspace=".25in">
-                    <title>Motivation: Sage</title>
+        <title><m>\S 1.3</m>: The Method of Characteristics</title>
+
+                <exercise workspace=".5in">
+                    <title>Motivation: Characteristics</title>
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>The Geometry of Characteristics</title>
                     <statement>
                         <p>
-                            Real applications of linear algebra are on very large systems, and require
-                            technology to compute with and manipulate. There are many possible tools one could use
-                            for this task. We'll work with Sage. The goals of this activity are to
+                            Recall, a first-order quasilinear PDE has the form
+                            <md>
+                                a(x,y,u)u_x + b(x,y,u)u_y = f(x,y,u)
+                            </md>, or equivalently:
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>How do characteristics help us solve PDEs?</title>
+                    
+                    
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>Example 1: Constant Coefficients</title>
+                    <statement>
+                        <p>
+                            Find the general solution to <m>3u_x - 2u_y + u = x</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Exercise: Constant Coefficients</title>
+                    <statement>
+                        <p>
+                            Find the general solution to <m>u_x + u_y - u = 0</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: Finding Particular Solutions</title>
+                    <statement>
+                        <p>
+                            Find the solution to <m>u_x + u_y - u =0</m> subject to <m>u(x,0)=1</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>Exercise: Finding Particular Solutions</title>
+                    
+                    
+                    <statement>
+                        <p>
+                            Find solutions of <m>3u_x - 2u_y + u = x</m> subject to 
                             <ol>
                                 <li>
                                     <p>
-                                        Introduce ways to access Sage and references when you need help. 
+                                        <m>u(x,x) = x</m>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Learn the basic syntax to use Sage.
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Use Sage to answer questions we've addressed by hand so far in Chapter 1.
+                                        <m>u(x,y)=0</m> on <m>3y + 2x = 1</m>
                                     </p>
                                 </li>
                             </ol>
@@ -34,16 +88,22 @@
                     
                 </exercise>
 
-                <exercise>
+                <exercise workspace="8in">
+                    <title>Visualizing Initial Conditions</title>
                     <statement>
                         <p>
-                            Access <url href="https://understandinglinearalgebra.org/sec-sage-introduction.html">Section 1.3</url> of our textbook. Follow instructions provided in class.
+                            The solution surface for part (a) is
+                            <image source="images/surface.png">
+                                <shortdescription>Graph of the solution surface showing characteristic curves
+                                    and initial condition.
+                                </shortdescription>
+                            </image>
                         </p>
                     </statement>
                     
+                    
                 </exercise>
 
-            </page>
         </worksheet>
     </article>
 </pretext>
