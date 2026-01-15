@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 1",
-  "body": " Homework 1    Find the general solution to the following PDEs:                     "
+  "body": " Homework 1    Find the general solution to the following PDEs, using transformation of variables when necessary. Verify your general solution by taking partial derivatives.                     "
 },
 {
   "id": "hw-1-2",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Find the general solution to the following PDEs:                    "
+  "body": "  Find the general solution to the following PDEs, using transformation of variables when necessary. Verify your general solution by taking partial derivatives.                    "
 }
 ]
 
