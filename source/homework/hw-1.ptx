@@ -8,7 +8,8 @@
         <exercise workspace="2in">
             <statement>
                 <p>
-                    Find the general solution <m>u(x,y)</m> to the following PDEs:
+                    Find the general solution <m>u(x,y)</m> to the following PDEs, using transformation of variables when necessary. 
+                    Verify your general solution by taking partial derivatives.
                     <ol>
                         <li>
                             <p>
