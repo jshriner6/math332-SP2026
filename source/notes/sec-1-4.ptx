@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-1-4">
+        <title><m>\S 1.4</m>: Applications</title>
+
+                <exercise workspace=".5in">
+                    <title>Motivation: Applications</title>
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>The Transport Equation (1-Dimensional)</title>
+                    <statement>
+                        <p>
+                            Consider a one-dimensional, one-way road with cars moving:
+                            
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>A Special Case: Advection Equation</title>
+                    <statement>
+                        <p>
+                            To start solving for for specific applications, we need to know more about the flow rate
+                            <m>\varphi(x,t)</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>Traveling Waves</title>
+                    <statement>
+                        <p>
+                            In the case of advection equations, we can visualize the solution <m>u(x,t)</m> as 
+                            <term>traveling waves</term> in the <m>u-x</m> plane:
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="5in">
+                    <title>Example: Breaking Time</title>
+                    <statement>
+                        <p>
+                            Solve <m>u_t+ uu_x = 0</m>, <m>u(x,0) = e^{-x^2}</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Definition: Breaking Time</title>
+                    <statement>
+                        <p>
+                            The <term>breaking time</term> is 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Visualizing Breaking Time</title>
+                    
+                    
+                    <statement>
+                        <p>
+                           
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Computing Breaking Time</title>
+                    <statement>
+                        <p>
+                            Let's compute the breaking time in general for 
+                            <md>
+                                u_t + c(u)u_x=0
+                            </md>.
+                            
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Example: Computing Breaking Time</title>
+                    <statement>
+                        <p>
+                            Compute <m>t_b</m> for <m>u_t+ uu_x = 0</m>, <m>u(x,0) = e^{-x^2}</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+        </worksheet>
+    </article>
+</pretext>

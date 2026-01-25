@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-2">
+            <title>Homework 2</title>
+        
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Find the solutions <m>u(x,y)</m> to the following PDEs, using the method of characteristics. 
+                    Verify your solutions by taking partial derivatives (note you should use technology to verify your answer for part (c)).
+                    <ol>
+                        <li>
+                            <p>
+                                <m>yu_x - xu_y = 0</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>u_x + 2u_y=0</m>, <m>u(x,0) = \sin(x)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>yu_x + xu_y = u</m>, <m>u(0,y) = e^{-y^2}</m> (use technology to verify this solution!)
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Consider the problem <m>u_t + uu_x=0</m>, <m>|x| \lt \infty</m>, <m>t \gt 0</m>. For each initial condition below, 
+                    <ol marker="(i)">
+                        <li>
+                            <p>
+                                Find and plot the characteristic curves in the <m>x,t</m>-plane. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use your plot to estimate the breaking time.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine the exact breaking time analytically.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>u(x,0) = \frac{1}{1+x^2}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>u(x,0) = \sin(x)</m>
+                            </p>
+                        </li>
+                        
+                    </ol>
+                </p>
+            </statement>
+            
+        </exercise>
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>
