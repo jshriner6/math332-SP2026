@@ -197,6 +197,96 @@ var ptx_lunr_docs = [
   "number": "8",
   "title": "Visualizing Initial Conditions.",
   "body": " Visualizing Initial Conditions   The solution surface for part (a) is  Graph of the solution surface showing characteristic curves and initial condition.     "
+},
+{
+  "id": "sec-1-4",
+  "level": "1",
+  "url": "sec-1-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 1.4\\text{:}\\)<\/span> Applications",
+  "body": " : Applications   Motivation: Applications    The Transport Equation (1-Dimensional)   Consider a one-dimensional, one-way road with cars moving:     A Special Case: Advection Equation   To start solving for for specific applications, we need to know more about the flow rate .     Traveling Waves   In the case of advection equations, we can visualize the solution as traveling waves in the plane:     Example: Breaking Time   Solve ,      Definition: Breaking Time   The breaking time is     Visualizing Breaking Time        Computing Breaking Time   Let's compute the breaking time in general for .     Example: Computing Breaking Time   Compute for , .    "
+},
+{
+  "id": "sec-1-4-2",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Applications.",
+  "body": " Motivation: Applications  "
+},
+{
+  "id": "sec-1-4-3",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Transport Equation (1-Dimensional).",
+  "body": " The Transport Equation (1-Dimensional)   Consider a one-dimensional, one-way road with cars moving:   "
+},
+{
+  "id": "sec-1-4-4",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "A Special Case: Advection Equation.",
+  "body": " A Special Case: Advection Equation   To start solving for for specific applications, we need to know more about the flow rate .   "
+},
+{
+  "id": "sec-1-4-5",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Traveling Waves.",
+  "body": " Traveling Waves   In the case of advection equations, we can visualize the solution as traveling waves in the plane:   "
+},
+{
+  "id": "sec-1-4-6",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Example: Breaking Time.",
+  "body": " Example: Breaking Time   Solve ,    "
+},
+{
+  "id": "sec-1-4-7",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Definition: Breaking Time.",
+  "body": " Definition: Breaking Time   The breaking time is   "
+},
+{
+  "id": "sec-1-4-8",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Visualizing Breaking Time.",
+  "body": " Visualizing Breaking Time      "
+},
+{
+  "id": "sec-1-4-9",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-9",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "Computing Breaking Time.",
+  "body": " Computing Breaking Time   Let's compute the breaking time in general for .   "
+},
+{
+  "id": "sec-1-4-10",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-10",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "Example: Computing Breaking Time.",
+  "body": " Example: Computing Breaking Time   Compute for , .   "
 }
 ]
 
