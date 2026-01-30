@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S 1.4\\text{:}\\)<\/span> Applications",
-  "body": " : Applications   Motivation: Applications    The Transport Equation (1-Dimensional)   Consider a one-dimensional, one-way road with cars moving:     A Special Case: Advection Equation   To start solving for for specific applications, we need to know more about the flow rate .     Traveling Waves   In the case of advection equations, we can visualize the solution as traveling waves in the plane:     Example: Breaking Time   Solve ,      Definition: Breaking Time   The breaking time is     Visualizing Breaking Time        Computing Breaking Time   Let's compute the breaking time in general for .     Example: Computing Breaking Time   Compute for , .    "
+  "body": " : Applications   Motivation: Applications    The Transport Equation (1-Dimensional)   Consider a one-dimensional, one-way road with cars moving:     A Special Case: Advection Equation   To start solving for for specific applications, we need to know more about the flow rate .     Traveling Waves   In the case of advection equations, we can visualize the solution as traveling waves in the plane:     Example: Breaking Time   Solve , .     Definition: Breaking Time   The breaking time is     Visualizing Breaking Time        Computing Breaking Time   Let's compute the breaking time in general for .     Example: Computing Breaking Time   Compute for , .    "
 },
 {
   "id": "sec-1-4-2",
@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "Example: Breaking Time.",
-  "body": " Example: Breaking Time   Solve ,    "
+  "body": " Example: Breaking Time   Solve , .   "
 },
 {
   "id": "sec-1-4-7",
@@ -287,6 +287,69 @@ var ptx_lunr_docs = [
   "number": "9",
   "title": "Example: Computing Breaking Time.",
   "body": " Example: Computing Breaking Time   Compute for , .   "
+},
+{
+  "id": "sec-2-1",
+  "level": "1",
+  "url": "sec-2-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.1 \/ 2.2\\text{:}\\)<\/span> Introduction to Second Order (Linear) PDEs",
+  "body": " : Introduction to Second Order (Linear) PDEs   Motivation: Second Order PDEs        Common Second Order Linear PDEs        The (1D) Heat Equation   The (1D) Heat Equation has the form .     Initial\/Boundary Values: The Heat Equation        The (1D) Wave Equation   The (1D) Wave Equation has the form .     Observations: The Wave Equation       "
+},
+{
+  "id": "sec-2-1-2",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Second Order PDEs.",
+  "body": " Motivation: Second Order PDEs      "
+},
+{
+  "id": "sec-2-1-3",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Common Second Order Linear PDEs.",
+  "body": " Common Second Order Linear PDEs      "
+},
+{
+  "id": "sec-2-1-4",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "The (1D) Heat Equation.",
+  "body": " The (1D) Heat Equation   The (1D) Heat Equation has the form .   "
+},
+{
+  "id": "sec-2-1-5",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Initial\/Boundary Values: The Heat Equation.",
+  "body": " Initial\/Boundary Values: The Heat Equation      "
+},
+{
+  "id": "sec-2-1-6",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "The (1D) Wave Equation.",
+  "body": " The (1D) Wave Equation   The (1D) Wave Equation has the form .   "
+},
+{
+  "id": "sec-2-1-7",
+  "level": "2",
+  "url": "sec-2-1.html#sec-2-1-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Observations: The Wave Equation.",
+  "body": " Observations: The Wave Equation      "
 }
 ]
 
