@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-2-1">
+        <title><m>\S 2.1 / 2.2</m>: Introduction to Second Order (Linear) PDEs</title>
+        <exercise workspace="2in">
+            <title>Motivation: Second Order PDEs</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="6in">
+            <title>Common Second Order Linear PDEs</title>
+			<statement>
+				<p>
+				
+				</p>
+			</statement>
+      </exercise>
+
+  
+    
+    
+
+
+        <exercise workspace="8in">
+            <title>The (1D) Heat Equation </title>
+            <statement>
+                <p>
+                    The (1D) Heat Equation has the form
+                    <md>
+						u_t = ku_{xx}
+					</md>.
+					
+                </p>
+            </statement>
+        </exercise> 
+            
+
+		<exercise workspace="8in">
+            <title>Initial/Boundary Values: The Heat Equation </title>
+            <statement>
+                <p>
+                   
+                </p>
+            </statement>
+            
+            
+        </exercise>
+    
+    
+        <exercise workspace="8in">
+            <title>The (1D) Wave Equation</title>
+            
+            <statement>
+				<p>
+					The (1D) Wave Equation has the form
+                    <md>
+						u_{tt} = c^2u_{xx}
+					</md>.
+					
+				</p>
+      
+      		</statement>
+      
+            
+        </exercise>
+	
+
+        <exercise workspace="8in">
+            <title>Observations: The Wave Equation</title>
+            <statement>
+                <p>
+                   
+                </p>
+            </statement>
+            
+            
+        </exercise>
+
+   
+
+        </worksheet>
+    </article>
+</pretext>

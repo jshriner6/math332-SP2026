@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-2-4">
+        <title><m>\S 2.4 / 2.5</m>: Separation of Variables</title>
+        <exercise workspace="2in">
+            <title>Motivation: Separation of Variables</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>The Heat Equation (1D)</title>
+			<statement>
+				<p>
+				We'd like to solve 
+                    <md>
+                        u_t = ku_{xx}
+                    </md>,
+                subject to 
+                    <md>
+                        u(0,t) = u(L,t) = 0
+                    </md>,
+                and
+                    <md>
+                        u(x,0) = f(x)
+                    </md>.
+                    
+                    
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Looking Forward</title>
+            <statement>
+                <p>
+                    What if the initial condition function isn't "nice"?
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+
+      <exercise workspace="8in">
+        <title>The Wave Equation (1D)</title>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        
+        
+      </exercise>
+
+      <exercise workspace="8in">
+        <title>Laplace's Equation (2D)</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        
+        
+      </exercise>
+  
+    
+    
+
+
+       
+    
+    
+       
+    
+   
+
+        </worksheet>
+    </article>
+</pretext>
