@@ -350,6 +350,60 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Observations: The Wave Equation.",
   "body": " Observations: The Wave Equation      "
+},
+{
+  "id": "sec-2-4",
+  "level": "1",
+  "url": "sec-2-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.4 \/ 2.5\\text{:}\\)<\/span> Separation of Variables",
+  "body": " : Separation of Variables   Motivation: Separation of Variables        The Heat Equation (1D)   We'd like to solve , subject to , and .     Looking Forward   What if the initial condition function isn't \"nice\"?     The Wave Equation (1D)   We'd like to solve subject to , and .     Laplace's Equation (2D)   We'd like to solve .    "
+},
+{
+  "id": "sec-2-4-2",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Separation of Variables.",
+  "body": " Motivation: Separation of Variables      "
+},
+{
+  "id": "sec-2-4-3",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Heat Equation (1D).",
+  "body": " The Heat Equation (1D)   We'd like to solve , subject to , and .   "
+},
+{
+  "id": "sec-2-4-4",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Looking Forward.",
+  "body": " Looking Forward   What if the initial condition function isn't \"nice\"?   "
+},
+{
+  "id": "sec-2-4-5",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "The Wave Equation (1D).",
+  "body": " The Wave Equation (1D)   We'd like to solve subject to , and .   "
+},
+{
+  "id": "sec-2-4-6",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Laplace’s Equation (2D).",
+  "body": " Laplace's Equation (2D)   We'd like to solve .   "
 }
 ]
 
