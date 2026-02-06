@@ -29,6 +29,8 @@
 
   <xi:include href="./notes/sec-2-4-and-2-5.ptx" xpointer="sec-2-4" /> -->
 
+  <xi:include href="./notes/sec-2-6.ptx" xpointer="sec-2-6" />
+
    <!--      <xi:include href="./notes/sec-2-2-1.ptx" xpointer="sec-2-2-1" /> 
     <xi:include href="./notes/sec-2-2-1-sols.ptx" xpointer="sec-2-2-1-sols" /> 
 

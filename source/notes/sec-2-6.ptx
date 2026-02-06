@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-2-6">
+        <title><m>\S 2.6</m>: Classification of Second Order Linear PDEs</title>
+        <exercise workspace="2in">
+            <title>Motivation: Classification of PDEs</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>First: Quadratic Forms</title>
+			<statement>
+				<p>
+				The general quadratic equation in variables <m>x,y</m> is
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Revisiting the Wave Equation</title>
+            <statement>
+                <p>
+                    Recall, the wave equation is
+                    <md>
+                        u_{tt} = c^2u_{xx}
+                    </md>.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+
+      <exercise workspace="8in">
+        <title>Classification of Linear Second Order PDEs</title>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        
+        
+      </exercise>
+
+      <exercise workspace="8in">
+        <title>Classification and Solution Behavior</title>
+            <statement>
+                <p>
+                    
+                </p>
+
+            </statement>
+        
+        
+      </exercise>
+  
+    
+    
+
+
+       
+    
+    
+       
+    
+   
+
+        </worksheet>
+    </article>
+</pretext>
