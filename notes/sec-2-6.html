@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>\S 2.4 / 2.5 Separation of Variables</title>
+<title>\S 2.6 Classification of Second Order Linear PDEs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -134,7 +134,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-2-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-2-6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-2-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -205,8 +205,8 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-3.html" class="internal"><span class="title"><span class="process-math">\(\S 1.3\text{:}\)</span> The Method of Characteristics</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-4.html" class="internal"><span class="title"><span class="process-math">\(\S 1.4\text{:}\)</span> Applications</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-2-1.html" class="internal"><span class="title"><span class="process-math">\(\S 2.1 / 2.2\text{:}\)</span> Introduction to Second Order (Linear) PDEs</span></a></div></li>
-<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-2-4.html" class="internal"><span class="title"><span class="process-math">\(\S 2.4 / 2.5\text{:}\)</span> Separation of Variables</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-2-6.html" class="internal"><span class="title"><span class="process-math">\(\S 2.6\text{:}\)</span> Classification of Second Order Linear PDEs</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-2-4.html" class="internal"><span class="title"><span class="process-math">\(\S 2.4 / 2.5\text{:}\)</span> Separation of Variables</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-2-6.html" class="internal"><span class="title"><span class="process-math">\(\S 2.6\text{:}\)</span> Classification of Second Order Linear PDEs</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <div class="print-preview-header">
@@ -233,87 +233,47 @@ eBookConfig.enable_chatcodes =  false;
 <button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
 </div>
 </div>
-<section class="worksheet" id="sec-2-4" data-margins="0.75in 0.75in 0.75in 0.75in"><h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S 2.4 / 2.5\text{:}\)</span> Separation of Variables</span><div class="print-links"><a href="?printpreview=sec-2-4" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<section class="worksheet" id="sec-2-6" data-margins="0.75in 0.75in 0.75in 0.75in"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"><span class="process-math">\(\S 2.6\text{:}\)</span> Classification of Second Order Linear PDEs</span><div class="print-links"><a href="?printpreview=sec-2-6" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
 </h2>
-<article class="exercise exercise-like" id="sec-2-4-2"><h3 class="heading">
-<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Separation of Variables.</span>
+<article class="exercise exercise-like" id="sec-2-6-2"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation: Classification of PDEs.</span>
 </h3>
-<div class="para" id="sec-2-4-2-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="sec-2-6-2-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-6-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
 <div class="workspace" data-space="2in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Separation of Variables"><a href="#sec-2-4-2" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Separation of Variables" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Separation of Variables">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-4-3"><h3 class="heading">
-<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Heat Equation (1D).</span>
+<div class="autopermalink" data-description="Worksheet Exercise 1: Motivation: Classification of PDEs"><a href="#sec-2-6-2" title="Copy heading and permalink for Worksheet Exercise 1: Motivation: Classification of PDEs" aria-label="Copy heading and permalink for Worksheet Exercise 1: Motivation: Classification of PDEs">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-6-3"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">First: Quadratic Forms.</span>
 </h3>
-<div class="para logical" id="sec-2-4-3-2-1">
-<div class="para">We’d like to solve</div>
-<div class="displaymath process-math" id="sec-2-4-3-2-1-1">
-\begin{equation*}
-u_t = ku_{xx}\text{,}
-\end{equation*}
-</div>
-<div class="para">subject to</div>
-<div class="displaymath process-math" id="sec-2-4-3-2-1-2">
-\begin{equation*}
-u(0,t) = u(L,t) = 0\text{,}
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math" id="sec-2-4-3-2-1-3">
-\begin{equation*}
-u(x,0) = f(x)\text{.}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-2-6-3-2-1">The general quadratic equation in variables <span class="process-math">\(x,y\)</span> is<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-6-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 2: The Heat Equation (1D)"><a href="#sec-2-4-3" title="Copy heading and permalink for Worksheet Exercise 2: The Heat Equation (1D)" aria-label="Copy heading and permalink for Worksheet Exercise 2: The Heat Equation (1D)">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-4-4"><h3 class="heading">
-<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Looking Forward.</span>
+<div class="autopermalink" data-description="Worksheet Exercise 2: First: Quadratic Forms"><a href="#sec-2-6-3" title="Copy heading and permalink for Worksheet Exercise 2: First: Quadratic Forms" aria-label="Copy heading and permalink for Worksheet Exercise 2: First: Quadratic Forms">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-6-4"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Revisiting the Wave Equation.</span>
 </h3>
-<div class="para" id="sec-2-4-4-2-1">What if the initial condition function isn’t "nice"?<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="sec-2-6-4-2-1">
+<div class="para">Recall, the wave equation is</div>
+<div class="displaymath process-math" id="sec-2-6-4-2-1-1">
+\begin{equation*}
+u_{tt} = c^2u_{xx}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-6-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 3: Looking Forward"><a href="#sec-2-4-4" title="Copy heading and permalink for Worksheet Exercise 3: Looking Forward" aria-label="Copy heading and permalink for Worksheet Exercise 3: Looking Forward">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-4-5"><h3 class="heading">
-<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Wave Equation (1D).</span>
+<div class="autopermalink" data-description="Worksheet Exercise 3: Revisiting the Wave Equation"><a href="#sec-2-6-4" title="Copy heading and permalink for Worksheet Exercise 3: Revisiting the Wave Equation" aria-label="Copy heading and permalink for Worksheet Exercise 3: Revisiting the Wave Equation">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-6-5"><h3 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Classification of Linear Second Order PDEs.</span>
 </h3>
-<div class="para logical" id="sec-2-4-5-2-1">
-<div class="para">We’d like to solve</div>
-<div class="displaymath process-math" id="sec-2-4-5-2-1-1">
-\begin{equation*}
-u_{tt} = c^2 u_{xx}
-\end{equation*}
-</div>
-<div class="para">subject to</div>
-<div class="displaymath process-math" id="sec-2-4-5-2-1-2">
-\begin{equation*}
-u(0,t) = u(L,t) = 0\text{,}
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math" id="sec-2-4-5-2-1-3">
-\begin{equation*}
-u(x,0) = f(x), u_t(x,0)=g(x)\text{.}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
+<div class="para" id="sec-2-6-5-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-6-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
 <div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 4: The Wave Equation (1D)"><a href="#sec-2-4-5" title="Copy heading and permalink for Worksheet Exercise 4: The Wave Equation (1D)" aria-label="Copy heading and permalink for Worksheet Exercise 4: The Wave Equation (1D)">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-4-6"><h3 class="heading">
-<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Laplace’s Equation (2D).</span>
+<div class="autopermalink" data-description="Worksheet Exercise 4: Classification of Linear Second Order PDEs"><a href="#sec-2-6-5" title="Copy heading and permalink for Worksheet Exercise 4: Classification of Linear Second Order PDEs" aria-label="Copy heading and permalink for Worksheet Exercise 4: Classification of Linear Second Order PDEs">🔗</a></div></article><article class="exercise exercise-like" id="sec-2-6-6"><h3 class="heading">
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Classification and Solution Behavior.</span>
 </h3>
-<div class="para logical" id="sec-2-4-6-2-1">
-<div class="para">We’d like to solve</div>
-<div class="displaymath process-math" id="sec-2-4-6-2-1-1">
-\begin{equation*}
-u_{xx} + u_{yy} = 0\text{.}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-4-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
+<div class="para" id="sec-2-6-6-2-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-6-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
 <div class="workspace" data-space="8in"></div>
-<div class="autopermalink" data-description="Worksheet Exercise 5: Laplace’s Equation (2D)"><a href="#sec-2-4-6" title="Copy heading and permalink for Worksheet Exercise 5: Laplace’s Equation (2D)" aria-label="Copy heading and permalink for Worksheet Exercise 5: Laplace’s Equation (2D)">🔗</a></div></article><div class="autopermalink" data-description="Worksheet: \S 2.4 / 2.5 Separation of Variables"><a href="#sec-2-4" title="Copy heading and permalink for Worksheet: \S 2.4 / 2.5 Separation of Variables" aria-label="Copy heading and permalink for Worksheet: \S 2.4 / 2.5 Separation of Variables">🔗</a></div></section>
+<div class="autopermalink" data-description="Worksheet Exercise 5: Classification and Solution Behavior"><a href="#sec-2-6-6" title="Copy heading and permalink for Worksheet Exercise 5: Classification and Solution Behavior" aria-label="Copy heading and permalink for Worksheet Exercise 5: Classification and Solution Behavior">🔗</a></div></article><div class="autopermalink" data-description="Worksheet: \S 2.6 Classification of Second Order Linear PDEs"><a href="#sec-2-6" title="Copy heading and permalink for Worksheet: \S 2.6 Classification of Second Order Linear PDEs" aria-label="Copy heading and permalink for Worksheet: \S 2.6 Classification of Second Order Linear PDEs">🔗</a></div></section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-2-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-2-6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-2-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

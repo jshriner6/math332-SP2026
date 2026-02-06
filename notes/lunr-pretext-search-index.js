@@ -404,6 +404,60 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Laplace’s Equation (2D).",
   "body": " Laplace's Equation (2D)   We'd like to solve .   "
+},
+{
+  "id": "sec-2-6",
+  "level": "1",
+  "url": "sec-2-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.6\\text{:}\\)<\/span> Classification of Second Order Linear PDEs",
+  "body": " : Classification of Second Order Linear PDEs   Motivation: Classification of PDEs        First: Quadratic Forms   The general quadratic equation in variables is     Revisiting the Wave Equation   Recall, the wave equation is .     Classification of Linear Second Order PDEs        Classification and Solution Behavior       "
+},
+{
+  "id": "sec-2-6-2",
+  "level": "2",
+  "url": "sec-2-6.html#sec-2-6-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Classification of PDEs.",
+  "body": " Motivation: Classification of PDEs      "
+},
+{
+  "id": "sec-2-6-3",
+  "level": "2",
+  "url": "sec-2-6.html#sec-2-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "First: Quadratic Forms.",
+  "body": " First: Quadratic Forms   The general quadratic equation in variables is   "
+},
+{
+  "id": "sec-2-6-4",
+  "level": "2",
+  "url": "sec-2-6.html#sec-2-6-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Revisiting the Wave Equation.",
+  "body": " Revisiting the Wave Equation   Recall, the wave equation is .   "
+},
+{
+  "id": "sec-2-6-5",
+  "level": "2",
+  "url": "sec-2-6.html#sec-2-6-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Classification of Linear Second Order PDEs.",
+  "body": " Classification of Linear Second Order PDEs      "
+},
+{
+  "id": "sec-2-6-6",
+  "level": "2",
+  "url": "sec-2-6.html#sec-2-6-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Classification and Solution Behavior.",
+  "body": " Classification and Solution Behavior      "
 }
 ]
 
