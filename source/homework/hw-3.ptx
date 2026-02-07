@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-3">
+            <title>Homework 3</title>
+        
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Solve the heat equation <m>u_t - u_{xx} = 0</m> using separation of variables for <m>x \in [0,\pi]</m> satisfying
+                    the boundary conditions <m>u_x(0,t) = 0</m> and <m>u(\pi,t)=0</m>.
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Solve the wave equation <m>u_{tt} = 2u_{xx} </m> using separation of variables for <m>x \in [0,2\pi]</m> satisfying
+                    the boundary conditions <m>u(0,t) = 0</m> and <m>u_x(2\pi,t)=0</m>.
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Solve Laplace's equation <m>u_{xx} + u_{yy} = 0</m> using separation of variables on the unit square
+                    satisfying the boundary conditions <m>u(0,y) = 0</m>, <m>u(1,y)=3\sinh(2\pi)\sin(2\pi y)</m>, <m>u(x,0)=0</m>, and <m>u(x,1)=0</m>.
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Classify the following equations as either hyperbolic, parabolic, or elliptic. It is possible 
+                    an equation has different classifications on different pieces of its domain.
+                    <ol>
+                        <li>
+                            <p>
+                                <m>u_{yy} + u_{xy} + u_{xx} =0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>4u_{xx} + 5u_{xy} + u_{yy} +u_x +u_y = 5 =0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>3u_{xx} + 2u_{xy} + 5u_{yy} =0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>u_{xx} - 3u_{xy} + u_{yy} =4y</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>u_{xx} +yu_{yy} =0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Derive a solution similar to d'Alembert's solution (factoring) for the equation 
+                    <m>u_{tt} + 2u_{xt} - 3u_{xx} = 0</m>. Do you expect the solution to behave more like solutions to 
+                    the heat, wave, or Laplace's equation? Why?
+                </p>
+            </statement>
+        </exercise>
+       
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>
