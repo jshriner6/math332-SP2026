@@ -44,6 +44,60 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Consider the problem , , . For each initial condition below,   Find and plot the characteristic curves in the -plane.    Use your plot to estimate the breaking time.    Determine the exact breaking time analytically.                    "
+},
+{
+  "id": "hw-3",
+  "level": "1",
+  "url": "hw-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 3",
+  "body": " Homework 3    Solve the heat equation using separation of variables for satisfying the boundary conditions and .      Solve the wave equation using separation of variables for satisfying the boundary conditions and .      Solve Laplace's equation using separation of variables on the unit square satisfying the boundary conditions , , , and .      Classify the following equations as either hyperbolic, parabolic, or elliptic. It is possible an equation has different classifications on different pieces of its domain.                                 Derive a solution similar to d'Alembert's solution (factoring) for the equation . Do you expect the solution to behave more like solutions to the heat, wave, or Laplace's equation? Why?    "
+},
+{
+  "id": "hw-3-2",
+  "level": "2",
+  "url": "hw-3.html#hw-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the heat equation using separation of variables for satisfying the boundary conditions and .   "
+},
+{
+  "id": "hw-3-3",
+  "level": "2",
+  "url": "hw-3.html#hw-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve the wave equation using separation of variables for satisfying the boundary conditions and .   "
+},
+{
+  "id": "hw-3-4",
+  "level": "2",
+  "url": "hw-3.html#hw-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve Laplace's equation using separation of variables on the unit square satisfying the boundary conditions , , , and .   "
+},
+{
+  "id": "hw-3-5",
+  "level": "2",
+  "url": "hw-3.html#hw-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Classify the following equations as either hyperbolic, parabolic, or elliptic. It is possible an equation has different classifications on different pieces of its domain.                              "
+},
+{
+  "id": "hw-3-6",
+  "level": "2",
+  "url": "hw-3.html#hw-3-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Derive a solution similar to d'Alembert's solution (factoring) for the equation . Do you expect the solution to behave more like solutions to the heat, wave, or Laplace's equation? Why?   "
 }
 ]
 
