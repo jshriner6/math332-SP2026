@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-1">
+        <title><m>\S 3.1</m>: Introduction to Fourier Series</title>
+        <exercise workspace="8in">
+            <title>Motivation: Fourier Series</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Sine and Cosine: Important Properties</title>
+			<statement>
+				<p>
+				Sine and cosine will be central in our journey in Fourier analysis, so let's emphasize some their 
+                most useful properties that we will utilize:
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Facts: Sine, Cosine, and Orthogonal Sets</title>
+            <statement>
+                <p>
+                    
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+    
+   
+
+        </worksheet>
+    </article>
+</pretext>

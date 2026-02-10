@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-4">
+        <title><m>\S 3.4</m>: Sine and Cosine Fourier Series</title>
+        <exercise workspace="8in">
+            <title>Motivation: Sine Series</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>First Attempt: Sine Series</title>
+			<statement>
+				<p>
+				Assume <m>f(x)</m> is an <term>odd</term> function on <m>[-L,L]</m>.
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>First Example: Fourier Sine Series</title>
+            <statement>
+                <p>
+                    Find the Fourier sine series for <m>f(x)=x</m> on <m>[-1,1]</m>.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Second Attempt: Sine Series</title>
+            <statement>
+                <p>
+                    What if <m>f(x)</m> is not odd?
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+    <exercise workspace="8in">
+            <title>Second Example: Fourier Sine Series</title>
+            <statement>
+                <p>
+                    Find the Fourier sine series for <m>f(x)=x^2</m> on <m>[0,1]</m>.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Fourier Cosine Series</title>
+            <statement>
+                <p>
+                    
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+   
+
+        </worksheet>
+    </article>
+</pretext>
