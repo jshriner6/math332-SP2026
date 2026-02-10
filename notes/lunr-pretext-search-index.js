@@ -458,6 +458,42 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Classification and Solution Behavior.",
   "body": " Classification and Solution Behavior      "
+},
+{
+  "id": "sec-3-1",
+  "level": "1",
+  "url": "sec-3-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.1\\text{:}\\)<\/span> Introduction to Fourier Series",
+  "body": " : Introduction to Fourier Series   Motivation: Fourier Series        Sine and Cosine: Important Properties   Sine and cosine will be central in our journey in Fourier analysis, so let's emphasize some their most useful properties that we will utilize:     Facts: Sine, Cosine, and Orthogonal Sets       "
+},
+{
+  "id": "sec-3-1-2",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Fourier Series.",
+  "body": " Motivation: Fourier Series      "
+},
+{
+  "id": "sec-3-1-3",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Sine and Cosine: Important Properties.",
+  "body": " Sine and Cosine: Important Properties   Sine and cosine will be central in our journey in Fourier analysis, so let's emphasize some their most useful properties that we will utilize:   "
+},
+{
+  "id": "sec-3-1-4",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Facts: Sine, Cosine, and Orthogonal Sets.",
+  "body": " Facts: Sine, Cosine, and Orthogonal Sets      "
 }
 ]
 
