@@ -60,14 +60,42 @@
         
       </exercise>
 
-      <exercise workspace="8in">
+      <exercise>
             <title>Fourier Cosine Series</title>
-            <statement>
-                <p>
-                    
-                    
-                </p>
-            </statement>
+            <task workspace="6in">
+                <statement>
+                    <p>
+                        Assume <m>f(x)</m> is an even function. Find the subscripts <m>a_n</m> we should use to represent 
+                        the function as <m>\sum_{n=0}^\infty a_n \cos\left(\frac{n\pi}{L}x \right)</m> on the interval 
+                        <m>[-L,L]</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="6in">
+                <statement>
+                    <p>
+                        Use your previous results to find the Fourier cosine series for <m>f(x) = x^2</m> on <m>[-1,1]</m>.
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="6in">
+                <statement>
+                    <p>
+                        Suppose <m>f(x)</m> is not even. What would your approach be to finding a cosine series 
+                        for <m>f(x)</m> on the interval <m>[0,L]</m>?
+                    </p>
+                </statement>
+            </task>
+
+            <task workspace="6in">
+                <statement>
+                    <p>
+                        Use your approach to find the Fourier cosine series for <m>f(x) = x^3</m> on <m>[0,1]</m>.
+                    </p>
+                </statement>
+            </task>
             
         
       </exercise>

@@ -33,7 +33,7 @@
 
   <xi:include href="./notes/sec-3-1.ptx" xpointer="sec-3-1" />
 
-  <!-- PICK UP HERE! <xi:include href="./notes/sec-3-4.ptx" xpointer="sec-3-4" /> -->
+  <xi:include href="./notes/sec-3-4.ptx" xpointer="sec-3-4" /> -->
 
    <!--      <xi:include href="./notes/sec-2-2-1.ptx" xpointer="sec-2-2-1" /> 
     <xi:include href="./notes/sec-2-2-1-sols.ptx" xpointer="sec-2-2-1-sols" /> 
