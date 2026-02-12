@@ -494,6 +494,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Facts: Sine, Cosine, and Orthogonal Sets.",
   "body": " Facts: Sine, Cosine, and Orthogonal Sets      "
+},
+{
+  "id": "sec-3-4",
+  "level": "1",
+  "url": "sec-3-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.4\\text{:}\\)<\/span> Sine and Cosine Fourier Series",
+  "body": " : Sine and Cosine Fourier Series   Motivation: Sine Series        First Attempt: Sine Series   Assume is an odd function on .     First Example: Fourier Sine Series   Find the Fourier sine series for on .     Second Attempt: Sine Series   What if is not odd?     Second Example: Fourier Sine Series   Find the Fourier sine series for on .     Fourier Cosine Series    Assume is an even function. Find the subscripts we should use to represent the function as on the interval .      Use your previous results to find the Fourier cosine series for on .      Suppose is not even. What would your approach be to finding a cosine series for on the interval ?      Use your approach to find the Fourier cosine series for on .     "
+},
+{
+  "id": "sec-3-4-2",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Sine Series.",
+  "body": " Motivation: Sine Series      "
+},
+{
+  "id": "sec-3-4-3",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "First Attempt: Sine Series.",
+  "body": " First Attempt: Sine Series   Assume is an odd function on .   "
+},
+{
+  "id": "sec-3-4-4",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "First Example: Fourier Sine Series.",
+  "body": " First Example: Fourier Sine Series   Find the Fourier sine series for on .   "
+},
+{
+  "id": "sec-3-4-5",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Second Attempt: Sine Series.",
+  "body": " Second Attempt: Sine Series   What if is not odd?   "
+},
+{
+  "id": "sec-3-4-6",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Second Example: Fourier Sine Series.",
+  "body": " Second Example: Fourier Sine Series   Find the Fourier sine series for on .   "
+},
+{
+  "id": "sec-3-4-7",
+  "level": "2",
+  "url": "sec-3-4.html#sec-3-4-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Fourier Cosine Series.",
+  "body": " Fourier Cosine Series    Assume is an even function. Find the subscripts we should use to represent the function as on the interval .      Use your previous results to find the Fourier cosine series for on .      Suppose is not even. What would your approach be to finding a cosine series for on the interval ?      Use your approach to find the Fourier cosine series for on .    "
 }
 ]
 
