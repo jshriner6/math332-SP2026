@@ -557,6 +557,60 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Fourier Cosine Series.",
   "body": " Fourier Cosine Series    Assume is an even function. Find the subscripts we should use to represent the function as on the interval .      Use your previous results to find the Fourier cosine series for on .      Suppose is not even. What would your approach be to finding a cosine series for on the interval ?      Use your approach to find the Fourier cosine series for on .    "
+},
+{
+  "id": "sec-3-2",
+  "level": "1",
+  "url": "sec-3-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.2\\text{:}\\)<\/span> Fourier Series and Convergence",
+  "body": " : Fourier Series and Convergence   Motivation: Fourier Series        Fourier Series on   Recall that the set is an orthogonal set on . This suggests     Exercise   Find the Fourier series for on .     Convergence of Fourier Series   If is on , then the Fourier series of will converge to    of for in which the periodic extension is continuous, and    the average of for in which the periodic extension has a at .        Summary: Building Series and Convergence   We've seen there is flexibility in how to construct Fourier Series:    "
+},
+{
+  "id": "sec-3-2-2",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Fourier Series.",
+  "body": " Motivation: Fourier Series      "
+},
+{
+  "id": "sec-3-2-3",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Fourier Series on <span class=\"process-math\">\\([-L,L]\\)<\/span>.",
+  "body": " Fourier Series on   Recall that the set is an orthogonal set on . This suggests   "
+},
+{
+  "id": "sec-3-2-4",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Exercise.",
+  "body": " Exercise   Find the Fourier series for on .   "
+},
+{
+  "id": "sec-3-2-5",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Convergence of Fourier Series.",
+  "body": " Convergence of Fourier Series   If is on , then the Fourier series of will converge to    of for in which the periodic extension is continuous, and    the average of for in which the periodic extension has a at .      "
+},
+{
+  "id": "sec-3-2-6",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Summary: Building Series and Convergence.",
+  "body": " Summary: Building Series and Convergence   We've seen there is flexibility in how to construct Fourier Series:   "
 }
 ]
 
