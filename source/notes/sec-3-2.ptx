@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-2">
+        <title><m>\S 3.2</m>: Fourier Series and Convergence</title>
+        <exercise workspace="8in">
+            <title>Motivation: Fourier Series</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Fourier Series on <m>[-L,L]</m></title>
+			<statement>
+				<p>
+				Recall that the set
+                <md>
+                    \left\{\cos\left(\frac{n\pi}{L}x\right)\right\}_{n=0}^\infty \bigcup \left\{\sin\left(\frac{n\pi}{L}x\right)\right\}_{n=1}^\infty
+                </md>
+                is an orthogonal set on <m>[-L,L]</m>. This suggests
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Exercise</title>
+            <statement>
+                <p>
+                    Find the Fourier series for <m>f(x)=L-x</m> on <m>[-L,L]</m>.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Convergence of Fourier Series</title>
+            <statement>
+                <p>
+                   If <m>f(x)</m> is <fillin characters="25" /> on <m>[-L,L]</m>, then the Fourier series of <m>f(x)</m> will
+                   converge to
+                   <ol>
+                    <li>
+                        <p>
+                            <fillin characters="30" /> of <m>f(x)</m> for <m>x</m> in which the periodic extension is continuous, and
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            the average of <fillin characters="30" /> for <m>x</m> in which the periodic extension has a
+                            <fillin characters="25" /> at <m>x</m>.
+                        </p>
+                    </li>
+                   </ol>
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+    <exercise workspace="8in">
+            <title>Summary: Building Series and Convergence</title>
+            <statement>
+                <p>
+                    We've seen there is flexibility in how to construct Fourier Series:
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      
+
+        </worksheet>
+    </article>
+</pretext>
