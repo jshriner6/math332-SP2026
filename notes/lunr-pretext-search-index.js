@@ -611,6 +611,60 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Summary: Building Series and Convergence.",
   "body": " Summary: Building Series and Convergence   We've seen there is flexibility in how to construct Fourier Series:   "
+},
+{
+  "id": "sec-mid-rev",
+  "level": "1",
+  "url": "sec-mid-rev.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Midterm Concept Check: Chapters 1 and 2",
+  "body": " Midterm Concept Check: Chapters 1 and 2   Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1. You should use them, along with homework questions and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm.   What is the order of a PDE, and why is it important?    What does it mean for a first-order PDE to be linear? semilinear? quasilinear?    Describe the main tools we've discussed for solving first-order equations. When can each be used? How do we utilize tools from ODEs?    What is the advection equation? Why is it not necessary to consider the breaking time in this context?    What is the general transport equation? Why is it necessary to consider the breaking time in this context?    How can we visualize the breaking time for a solution to the transport equation?    What is a common approach to solving second-order linear PDEs? Describe the general process.    How can we determine what data is necessary to find a particular solution to a second order linear PDE (for example, do we need boundary conditions? initial conditions? how many?)?    How do we classify second order PDEs? In what ways is this useful?       "
+},
+{
+  "id": "sec-mid-rev-2",
+  "level": "2",
+  "url": "sec-mid-rev.html#sec-mid-rev-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Midterm Review.",
+  "body": " Midterm Review   The following conceptual questions are intended to help you review important ideas covered on midterm 1. You should use them, along with homework questions and class examples, to guide your studying and creation of a single note sheet that can be used during the in-class midterm.   What is the order of a PDE, and why is it important?    What does it mean for a first-order PDE to be linear? semilinear? quasilinear?    Describe the main tools we've discussed for solving first-order equations. When can each be used? How do we utilize tools from ODEs?    What is the advection equation? Why is it not necessary to consider the breaking time in this context?    What is the general transport equation? Why is it necessary to consider the breaking time in this context?    How can we visualize the breaking time for a solution to the transport equation?    What is a common approach to solving second-order linear PDEs? Describe the general process.    How can we determine what data is necessary to find a particular solution to a second order linear PDE (for example, do we need boundary conditions? initial conditions? how many?)?    How do we classify second order PDEs? In what ways is this useful?      "
+},
+{
+  "id": "sec-3-5",
+  "level": "1",
+  "url": "sec-3-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.5\/3.6\\text{:}\\)<\/span> Solving the Heat and Wave Equations",
+  "body": " : Solving the Heat and Wave Equations   Motivation: Fourier Series        Heat Equation   Solve for , , and , . Consider breaking your work into three important steps:   Use separation of variables to get two ODEs.    Being careful to use the boundary conditions, find all solutions to the space ODE. Unless your boundary conditions are exactly the same as a case you've analyzed previously, don't assume you'll get the same solutions!    Use superposition and a Fourier series to find a particular solution satisfying the initial condition. Then try graphing your solution!        Wave Equation   Solve for , , and , . Consider following the same important steps outlined in the previous problem.    "
+},
+{
+  "id": "sec-3-5-2",
+  "level": "2",
+  "url": "sec-3-5.html#sec-3-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Fourier Series.",
+  "body": " Motivation: Fourier Series      "
+},
+{
+  "id": "sec-3-5-3",
+  "level": "2",
+  "url": "sec-3-5.html#sec-3-5-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Heat Equation.",
+  "body": " Heat Equation   Solve for , , and , . Consider breaking your work into three important steps:   Use separation of variables to get two ODEs.    Being careful to use the boundary conditions, find all solutions to the space ODE. Unless your boundary conditions are exactly the same as a case you've analyzed previously, don't assume you'll get the same solutions!    Use superposition and a Fourier series to find a particular solution satisfying the initial condition. Then try graphing your solution!      "
+},
+{
+  "id": "sec-3-5-4",
+  "level": "2",
+  "url": "sec-3-5.html#sec-3-5-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Wave Equation.",
+  "body": " Wave Equation   Solve for , , and , . Consider following the same important steps outlined in the previous problem.   "
 }
 ]
 

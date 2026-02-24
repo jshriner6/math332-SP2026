@@ -98,6 +98,33 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  Derive a solution similar to d'Alembert's solution (factoring) for the equation . Do you expect the solution to behave more like solutions to the heat, wave, or Laplace's equation? Why?   "
+},
+{
+  "id": "hw-4",
+  "level": "1",
+  "url": "hw-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 4",
+  "body": " Homework 4    Show that is an orthogonal set on .          "
+},
+{
+  "id": "hw-4-2",
+  "level": "2",
+  "url": "hw-4.html#hw-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that is an orthogonal set on .   "
+},
+{
+  "id": "hw-4-3",
+  "level": "2",
+  "url": "hw-4.html#hw-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
 }
 ]
 
