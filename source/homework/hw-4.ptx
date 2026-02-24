@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-4">
+            <title>Homework 4</title>
+        
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Show that <m>\left\{\sin\left(\frac{n\pi}{L}x \right) \right\}_{n=1}^\infty</m> is an orthogonal set
+                    on <m>[-L,L]</m>.
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        
+       
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>

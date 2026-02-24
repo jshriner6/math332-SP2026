@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-mid-rev">
+        <title>Midterm Concept Check: Chapters 1 and 2</title>
+        <exercise workspace="8in">
+            <title>Midterm Review</title>
+            <statement>
+                <p>
+                    The following conceptual questions are intended to help you review important ideas covered on midterm 1.
+                    You should use them, along with homework questions and class examples, to guide your studying and creation
+                    of a single note sheet that can be used during the in-class midterm.
+                    <ol>
+                        <li>
+                            <p>
+                                What is the order of a PDE, and why is it important?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What does it mean for a first-order PDE to be linear? semilinear? quasilinear?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Describe the main tools we've discussed for solving first-order equations. When
+                                can each be used? How do we utilize tools from ODEs?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the advection equation? Why is it not necessary to consider the breaking time
+                                in this context?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the general transport equation? Why is it necessary to consider the breaking time 
+                                in this context?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               How can we visualize the breaking time for a solution to the transport equation?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is a common approach to solving second-order linear PDEs? Describe the general process.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How can we determine what data is necessary to find a particular solution to a second order
+                                linear PDE (for example, do we need boundary conditions? initial conditions? how many?)?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How do we classify second order PDEs? In what ways is this useful?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
+            </statement>
+            
+        </exercise>
+      
+
+        </worksheet>
+    </article>
+</pretext>

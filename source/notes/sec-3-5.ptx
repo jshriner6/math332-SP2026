@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-5">
+        <title><m>\S 3.5/3.6</m>: Solving the Heat and Wave Equations</title>
+        <exercise workspace="8in">
+            <title>Motivation: Fourier Series</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Heat Equation</title>
+			<statement>
+				<p>
+				Solve <m>u_t = u_{xx}</m> for <m>x \in [0,1]</m>, <m>t \gt 0</m>, and
+                    <md>
+                        u_x(0,t) = u_x(1,t)= 0
+                    </md>,
+                    <md>
+                        u(x,0) =  \begin{cases}
+                                    x \amp \text{if } x \in [0,0.5] \\
+                                    x - 0.5 \amp \text{if } x \in (0.5, 1]
+                                    \end{cases}
+                    </md>.
+
+            Consider breaking your work into three important steps:
+                    <ol>
+                        <li>
+                            <p>
+                                Use separation of variables to get two ODEs.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Being careful to use the boundary conditions, find all solutions to the space ODE. 
+                                Unless your boundary conditions are exactly the same as a case you've analyzed previously, 
+                                don't assume you'll get the same solutions!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use superposition and a Fourier series to find a particular solution satisfying the initial 
+                                condition. Then try graphing your solution!
+                            </p>
+                        </li>
+                    </ol>
+                    
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Wave Equation</title>
+            <statement>
+                <p>
+                    Solve <m>u_{tt}=u_{xx}</m> for <m>x \in [0,1]</m>, <m>t \gt 0</m>, and
+                    <md>
+                        u(0,t) = u(1,t)= 0
+                    </md>,
+                    <md>
+                        u(x,0) =  \begin{cases}
+                                    x \amp \text{if } x \in [0,0.5] \\
+                                    -x 1 \amp \text{if } x \in (0.5, 1]
+                                    \end{cases}
+                    </md>.
+                    Consider following the same important steps outlined in the previous problem.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      
+
+        </worksheet>
+    </article>
+</pretext>
