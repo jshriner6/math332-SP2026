@@ -66,7 +66,7 @@
                     <md>
                         u(x,0) =  \begin{cases}
                                     x \amp \text{if } x \in [0,0.5] \\
-                                    -x 1 \amp \text{if } x \in (0.5, 1]
+                                    -x+ 1 \amp \text{if } x \in (0.5, 1]
                                     \end{cases}
                     </md>.
                     Consider following the same important steps outlined in the previous problem.

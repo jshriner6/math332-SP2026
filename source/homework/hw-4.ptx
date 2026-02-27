@@ -18,12 +18,57 @@
         <exercise workspace="1in">
             <statement>
                 <p>
-                    
+                    Let <m>f(x) = 10-x</m> on <m>[0,10]</m>. 
+                    <ol>
+                        <li>
+                            <p>
+                                Draw or use technology to graph the odd extension of <m>f</m> on <m>[-10,10]</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine the Fourier sine series for the odd extension of <m>f</m>, and use technology 
+                                to graph the first several terms of your series.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Draw or use technology to graph the even extension of <m>f</m> on <m>[-10,10]</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine the Fourier cosine series for the even extension of <m>f</m>, and use technology 
+                                to graph the first several terms of your series.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine the Fourier series for <m>f</m> on <m>[-10,10]</m>. Use technology 
+                                to graph the first several terms of your series.
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </statement>
             
         </exercise>
 
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    Determine the Fourier series for 
+                    <md>
+                        g(x) =  \begin{cases}
+                            1 \amp \text{if } -1 \leq x \leq 0 \\
+                            2x \amp \text{if } 0 \lt x \leq 1
+                        \end{cases}
+                    </md> on <m>[-1,1]</m>.
+                     Use technology to graph the first several terms of your series.
+                </p>
+            </statement>
+            
+        </exercise>
         
        
             

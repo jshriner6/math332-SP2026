@@ -48,7 +48,7 @@
                         </li>
                         <li>
                             <p>
-                                <m>4u_{xx} + 5u_{xy} + u_{yy} +u_x +u_y = 5 =0</m>
+                                <m>4u_{xx} + 5u_{xy} + u_{yy} +u_x +u_y + 5 =0</m>
                             </p>
                         </li>
                         <li>
