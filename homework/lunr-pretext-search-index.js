@@ -134,6 +134,24 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Determine the Fourier series for on . Use technology to graph the first several terms of your series.   "
+},
+{
+  "id": "hw-5",
+  "level": "1",
+  "url": "hw-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 5",
+  "body": " Homework 5    For each Sturm-Liouville eigenvalue problem below,   identify the functions , and that make each a Sturm-Liouville eigenvalue problem, and    find the eigenvalues and eigenfunctions of each problem.         , .   For (i), consider using an integrating factor .       , .   For (ii), consider referencing Appendix 12.4 on Cauchy-Euler Equations .     "
+},
+{
+  "id": "hw-5-2",
+  "level": "2",
+  "url": "hw-5.html#hw-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each Sturm-Liouville eigenvalue problem below,   identify the functions , and that make each a Sturm-Liouville eigenvalue problem, and    find the eigenvalues and eigenfunctions of each problem.         , .   For (i), consider using an integrating factor .       , .   For (ii), consider referencing Appendix 12.4 on Cauchy-Euler Equations .    "
 }
 ]
 
