@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-5">
+            <title>Homework 5</title>
+        
+        <exercise>
+            <introduction>
+                <p>
+                    For each Sturm-Liouville eigenvalue problem below,
+                    <ol marker="(i)">
+                        <li>
+                            <p>
+                                identify the functions <m>p(x), q(x)</m>, and <m>\sigma(x)</m> that make each a 
+                                Sturm-Liouville eigenvalue problem, and 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                find the eigenvalues and eigenfunctions of each problem.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                       <m>y'' + 2y' + y + \lambda y = 0</m>, <m>y(0)=y(1)=0</m>.
+                    </p>
+                    <p>
+                        <em>For (i), consider using an integrating factor <m>e^{2x}</m></em>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                       <m>(xy')' + \frac{\lambda}{x}y = 0</m>, <m>y(1)= y(e^2)=0</m>.
+                    </p>
+                    <p>
+                        <em>For (ii), consider referencing Appendix 12.4 on Cauchy-Euler Equations</em>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        
+       
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>
