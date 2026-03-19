@@ -665,6 +665,141 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Wave Equation.",
   "body": " Wave Equation   Solve for , , and , . Consider following the same important steps outlined in the previous problem.   "
+},
+{
+  "id": "sec-4-1",
+  "level": "1",
+  "url": "sec-4-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.1\\text{:}\\)<\/span> Sturm-Liouville Operators",
+  "body": " : Sturm-Liouville Operators   Motivation: Sturm-Liouville Operators        Step 1: Change view to linear differential operators        Step 2: Define a special linear differential operator   A Sturm-Liouville operator has the form     Step 3: Define the Sturm-Liouville Eigenvalue Problem   A Sturm-Liouville eigenvalue problem has the form     Step 4: General Boundary Conditions for the Sturm-Liouville Eigenvalue Problem        Summary: the Sturm-Liouville Eigenvalue Problem       "
+},
+{
+  "id": "sec-4-1-2",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Sturm-Liouville Operators.",
+  "body": " Motivation: Sturm-Liouville Operators      "
+},
+{
+  "id": "sec-4-1-3",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Step 1: Change view to linear differential operators.",
+  "body": " Step 1: Change view to linear differential operators      "
+},
+{
+  "id": "sec-4-1-4",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Step 2: Define a special linear differential operator.",
+  "body": " Step 2: Define a special linear differential operator   A Sturm-Liouville operator has the form   "
+},
+{
+  "id": "sec-4-1-5",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Step 3: Define the Sturm-Liouville Eigenvalue Problem.",
+  "body": " Step 3: Define the Sturm-Liouville Eigenvalue Problem   A Sturm-Liouville eigenvalue problem has the form   "
+},
+{
+  "id": "sec-4-1-6",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Step 4: General Boundary Conditions for the Sturm-Liouville Eigenvalue Problem.",
+  "body": " Step 4: General Boundary Conditions for the Sturm-Liouville Eigenvalue Problem      "
+},
+{
+  "id": "sec-4-1-7",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Summary: the Sturm-Liouville Eigenvalue Problem.",
+  "body": " Summary: the Sturm-Liouville Eigenvalue Problem      "
+},
+{
+  "id": "sec-4-2",
+  "level": "1",
+  "url": "sec-4-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.2\\text{:}\\)<\/span> Properties of Sturm-Liouville Eigenvalue Problems",
+  "body": " : Properties of Sturm-Liouville Eigenvalue Problems   Motivation: Sturm-Liouville Eigenvalue Problems        The Facts: Sturm-Liouville Eigenvalue Problems        Example 1: Verifying Properties   Consider .     Example 2: Verifying Properties   Consider .     More on the Rayleigh Quotient   Suppose satisfies a Sturm-Liouville problem:     Example 1: Using the Rayleigh Quotient   Consider .     Example 2: Using the Rayleigh Quotient   Consider .    "
+},
+{
+  "id": "sec-4-2-2",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Sturm-Liouville Eigenvalue Problems.",
+  "body": " Motivation: Sturm-Liouville Eigenvalue Problems      "
+},
+{
+  "id": "sec-4-2-3",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Facts: Sturm-Liouville Eigenvalue Problems.",
+  "body": " The Facts: Sturm-Liouville Eigenvalue Problems      "
+},
+{
+  "id": "sec-4-2-4",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example 1: Verifying Properties.",
+  "body": " Example 1: Verifying Properties   Consider .   "
+},
+{
+  "id": "sec-4-2-5",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example 2: Verifying Properties.",
+  "body": " Example 2: Verifying Properties   Consider .   "
+},
+{
+  "id": "sec-4-2-6",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "More on the Rayleigh Quotient.",
+  "body": " More on the Rayleigh Quotient   Suppose satisfies a Sturm-Liouville problem:   "
+},
+{
+  "id": "sec-4-2-7",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Example 1: Using the Rayleigh Quotient.",
+  "body": " Example 1: Using the Rayleigh Quotient   Consider .   "
+},
+{
+  "id": "sec-4-2-8",
+  "level": "2",
+  "url": "sec-4-2.html#sec-4-2-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Example 2: Using the Rayleigh Quotient.",
+  "body": " Example 2: Using the Rayleigh Quotient   Consider .   "
 }
 ]
 
