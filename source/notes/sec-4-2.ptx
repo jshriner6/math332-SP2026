@@ -1,302 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-4-2">
-        <title><m>\S 4.2</m>: Finding Eigenvectors and Eigenvalues</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: Finding Eigenvectors and Eigenvalues</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                </exercise>
+        <title><m>\S 4.2</m>: Properties of Sturm-Liouville Eigenvalue Problems</title>
+        <exercise workspace="8in">
+            <title>Motivation: Sturm-Liouville Eigenvalue Problems</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
 
-                <exercise workspace="1in">
-                    <title>Preview Activity 4.2.1</title>
-                    <introduction>
-        <p> Let's begin by reviewing some important ideas that we have
-        seen previously.</p>
-      </introduction>
+        <exercise workspace="8in">
+            <title>The Facts: Sturm-Liouville Eigenvalue Problems</title>
+			<statement>
+				<p>
+				
+				</p>
+			</statement>
+      </exercise>
 
-      <task >
-        <statement>
-	  <p> Suppose that <m>A</m> is a square matrix and that
-	  the nonzero vector <m>\xvec</m> is a solution to
-	  the homogeneous equation <m>A\xvec = \zerovec</m>.  What can
-	  we conclude about the invertibility of <m>A</m>?  </p>
-        </statement>
+      <exercise workspace="8in">
+            <title>Example 1: Verifying Properties</title>
+            <statement>
+                <p>
+                    Consider
+                    <md>
+                        \varphi'' = -\lambda \varphi, \varphi(0)= \varphi(\pi) =0 
+                    </md>.
+                    
+                </p>
+            </statement>
+            
         
+      </exercise>
+
+	  <exercise workspace="8in">
+            <title>Example 2: Verifying Properties</title>
+            <statement>
+                <p>
+                    Consider
+                    <md>
+                        (x \varphi')' + \frac{2}{x}\varphi = -\frac{\lambda}{x} \varphi, \varphi'(1)= \varphi'(2) =0 
+                    </md>.
+                    
+                </p>
+            </statement>
+            
         
-      </task>
+      </exercise>
 
-      <task>
-        <statement>
-	  <p> How does the determinant <m>\det(A)</m> tell us if
-	  there is a nonzero solution to the homogeneous equation
-	  <m>A\xvec = \zerovec</m>? </p>
-        </statement>
-       
+	  <exercise workspace="8in">
+            <title>More on the Rayleigh Quotient</title>
+            <statement>
+                <p>
+                    Suppose <m>\varphi(x)</m> satisfies a Sturm-Liouville problem:
+                </p>
+            </statement>
+            
         
-      </task>
+      </exercise>
 
-      <task >
-        <statement>
-	  <p> Suppose that
-	  <me>
-	    A = \left[\begin{array}{rrr}
-	    3 \amp -1 \amp 1 \\
-	    0 \amp 2 \amp 4 \\
-	    1 \amp 1 \amp 3 \\
-	    \end{array}\right]
-	    </me>.
-	    Find the determinant <m>\det(A)</m>.  What does this tell us
-	    about the solution space to the homogeneous equation <m>A\xvec
-	  = \zerovec</m>? </p>
-        </statement>
-       
+	  <exercise workspace="8in">
+            <title>Example 1: Using the Rayleigh Quotient</title>
+            <statement>
+                <p>
+                  Consider
+                  <md>
+                    \varphi'' + \lambda \varphi = 0, \varphi(0)=\varphi(\pi)=0
+                  </md>.
+                  
+                </p>
+            </statement>
+            
         
-      </task>
+      </exercise>
 
-      <task >
-        <statement>
-	  <p> Find a basis for <m>\nul(A)</m>.</p>
-        </statement>
+      <exercise workspace="8in">
+            <title>Example 2: Using the Rayleigh Quotient</title>
+            <statement>
+                <p>
+                  Consider
+                  <md>
+                    \rho(x)u_{tt} = T_0u_{xx}, u(0,t) = u(\pi,t) = 0
+                  </md>.
+                  
+                </p>
+            </statement>
+            
         
-        
-      </task>
+      </exercise>
 
-      <task >
-        <statement>
-	  <p> What is the relationship between the rank of a matrix
-	  and the dimension of its null space? </p>
-        </statement>
-        
-        
-      </task>
-                    
-                    
-                </exercise>
-
-            </page>
-
-            <page>
-                <exercise workspace="5in">
-                    <title>Finding Eigenvalues</title>
-                    <statement>
-                        <p>
-                            If <m>\vvec \neq \zerovec</m> is an eigenvector, then there is a scalar <m>\lambda</m> 
-                            such that 
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-
-                <exercise workspace="5in">
-                    <title>Example: Finding Eigenvalues</title>
-                    <statement>
-                        <p>
-                            Let 
-                            <me>
-	  A_1 = \left[\begin{array}{rr}
-	  1 \amp 2 \\
-	  2 \amp 1 \\
-	  \end{array}\right], \,\,\,\,
-
-      A_2 = \left[\begin{array}{rr}
-	0 \amp -1 \\
-	1 \amp 0 \\
-	\end{array}\right], \,\,\,\,
-
-    A_3 = \left[\begin{array}{rrr}
-	  3 \amp -1 \amp 4 \\
-	  0 \amp -2 \amp 3 \\
-	  0 \amp 0 \amp 1 \\
-	  \end{array}\right]
-	</me>
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise workspace="3in">
-                    <title>Finding Eigenvectors</title>
-                    <statement>
-                        <p>
-                            Eigenvectors are solutions to
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-
-                <exercise workspace="6in">
-                    <title>Example: Finding Eigenvectors</title>
-                    <statement>
-                        <p>
-                            If <m>A= \left[\begin{array}{rr}
-	  1 \amp 2 \\
-	  2 \amp 1 \\
-	  \end{array}\right]</m>, then <m>\lambda = -1, 3</m>.
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Dimensions of Eigenspaces</title>
-                    <statement>
-                        <p>
-                            <m>A_1 = \begin{bmatrix}
-	1 \amp 1 \\
-	-1 \amp 3 \\
-	\end{bmatrix}</m> vs. <m>A_2 = \begin{bmatrix}
-	-1 \amp 0 \\
-	0 \amp -1 \\
-	\end{bmatrix}</m>
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>The Characteristic Polynomial and Dimensions of Eigenspaces</title>
-                    <statement>
-                        <p>
-                            If <m>A</m> is an <m>n \times n</m> matrix, then the characteristic polynomial is 
-                            degree <m>n</m>, and we can write
-                            <me>
-                                \text{det}(A - \lambda I) = 
-                            </me>
-                            
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Activity: Eigenvalues and Multiplicities</title>
-                    <statement>
-      <p>
-	<ol marker="a.">
-	  <li><p> Identify the eigenvalues, and their multiplicities,
-	  of an <m>n\times n</m>
-	  matrix whose characteristic polynomial is
-	  <m>(2-\lambda)^3(-3-\lambda)^{10}(5-\lambda)</m>.  What can you
-	  conclude about the dimensions of the eigenspaces?  What is the
-	  shape of the matrix?  Do you have enough information to
-	  guarantee that there is a basis of <m>\real^n</m> consisting
-	  of eigenvectors? </p></li>
-
-	  <li><p> Find the eigenvalues of 
-	  <m>
-	    \left[\begin{array}{rr}
-	    0 \amp -1 \\
-	    4 \amp -4 \\
-	    \end{array}\right]
-	  </m> and state their multiplicities.  Can you find a basis
-	  of <m>\real^2</m> consisting of eigenvectors of this matrix?
-	  </p></li>
-	  
-	  <li><p> Consider the matrix
-	  <m>A =
-	  \left[\begin{array}{rrr}
-	  -1 \amp 0 \amp 2 \\
-	  -2 \amp -2 \amp -4 \\
-	  0 \amp 0 \amp -2 \\
-	  \end{array}\right]
-	  </m> whose characteristic equation is
-	  <me>
-	    (-2-\lambda)^2(-1-\lambda) = 0
-	  </me>.
-	  <ol marker="1.">
-	    <li><p> Identify the eigenvalues and their
-	    multiplicities. </p></li>
-
-	    <li><p> For each eigenvalue <m>\lambda</m>, find a basis
-	    of the eigenspace <m>E_\lambda</m> and state its
-	    dimension. </p></li>
-
-	    <li><p> Is there a basis of <m>\real^3</m> consisting of
-	    eigenvectors of <m>A</m>?</p></li>
-	  </ol></p></li>
-
-	  <li><p> Now consider the matrix
-	  <m> A =
-	  \left[\begin{array}{rrr}
-	  -5 \amp -2 \amp -6 \\
-	  -2 \amp -2 \amp -4 \\
-	  2 \amp 1 \amp 2 \\
-	  \end{array}\right]
-	  </m> whose characteristic equation is also
-	  <me>
-	    (-2-\lambda)^2(-1-\lambda) = 0
-	  </me>.
-	  <ol marker="1.">
-	    <li><p> Identify the eigenvalues and their
-	    multiplicities. </p></li>
-
-	    <li><p> For each eigenvalue <m>\lambda</m>, find a basis
-	    of the eigenspace <m>E_\lambda</m> and state its
-	    dimension. </p></li>
-
-	    <li><p> Is there a basis of <m>\real^3</m> consisting of
-	    eigenvectors of <m>A</m>?</p></li>
-	  </ol></p></li>
-
-	  <li><p> Consider the matrix
-	  <m>A = 
-	  \left[\begin{array}{rrr}
-	  -5 \amp -2 \amp -6 \\
-	  4 \amp 1 \amp 8 \\
-	  2 \amp 1 \amp 2 \\
-	  \end{array}\right]
-	  </m> whose characteristic equation is 
-	  <me>
-	    (-2-\lambda)(1-\lambda)(-1-\lambda) = 0
-	  </me>.
-	  <ol marker="1.">
-	    <li><p> Identify the eigenvalues and their
-	    multiplicities. </p></li>
-
-	    <li><p> For each eigenvalue <m>\lambda</m>, find a basis
-	    of the eigenspace <m>E_\lambda</m> and state its
-	    dimension. </p></li>
-
-	    <li><p> Is there a basis of <m>\real^3</m> consisting of
-	    eigenvectors of <m>A</m>?</p></li>
-	  </ol></p></li>
-	  
-	</ol>
-      </p>
-      </statement>
-
-                    
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Eigenvectors and Sage</title>
-                    <statement>
-                        <p>
-                            Review <url href="https://understandinglinearalgebra.org/sec-eigen-find.html#sec-eigen-find-6-3">Activity 4.2.5</url> 
-                            to see how to compute eigenvectors and eigenvalues using Sage. Be careful when using decimals!
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
+      
 
         </worksheet>
     </article>
