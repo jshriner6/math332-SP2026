@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-4-3">
+        <title><m>\S 4.3</m>: Eigenfunction Expansion</title>
+        <exercise workspace="8in">
+            <title>Motivation: Eigenfunction Expansion</title>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>The Theory</title>
+			<statement>
+				<p>
+				Suppose we'd like to solve the differential equation
+                <md>
+                    \mathscr{L}(\varphi) = f(x)
+                </md>.
+                
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Example 1: Starting from a DE</title>
+            <statement>
+                <p>
+                    Consider
+                    <md>
+                        (x \varphi')' + \frac{1}{x}\varphi = \frac{1}{x}
+                    </md>,
+                    where <m>x \in (1,e)</m> and <m>\varphi(1) = \varphi(e) = 0</m>.
+                    
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+	  <exercise workspace="8in">
+            <title>Example 2: Starting from PDE</title>
+            <statement>
+                <p>
+                    Consider
+                    <md>
+                        u_t = u_{xx} + Q(x,t)
+                    </md>,
+                    with
+                    <md>
+                        u(0,t) = u(1,t) = 0
+                    </md>
+                    and 
+                    <md>
+                        u(x,0) = f(x)
+                    </md>.
+                    
+                                        
+                </p>
+            </statement>
+            
+        
+      </exercise>
+
+      
+
+        </worksheet>
+    </article>
+</pretext>
