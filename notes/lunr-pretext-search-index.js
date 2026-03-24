@@ -800,6 +800,51 @@ var ptx_lunr_docs = [
   "number": "7",
   "title": "Example 2: Using the Rayleigh Quotient.",
   "body": " Example 2: Using the Rayleigh Quotient   Consider .   "
+},
+{
+  "id": "sec-4-3",
+  "level": "1",
+  "url": "sec-4-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.3\\text{:}\\)<\/span> Eigenfunction Expansion",
+  "body": " : Eigenfunction Expansion   Motivation: Eigenfunction Expansion        The Theory   Suppose we'd like to solve the differential equation .     Example 1: Starting from a DE   Consider , where and .     Example 2: Starting from PDE   Consider , with and .    "
+},
+{
+  "id": "sec-4-3-2",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Eigenfunction Expansion.",
+  "body": " Motivation: Eigenfunction Expansion      "
+},
+{
+  "id": "sec-4-3-3",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Theory.",
+  "body": " The Theory   Suppose we'd like to solve the differential equation .   "
+},
+{
+  "id": "sec-4-3-4",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example 1: Starting from a DE.",
+  "body": " Example 1: Starting from a DE   Consider , where and .   "
+},
+{
+  "id": "sec-4-3-5",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Example 2: Starting from PDE.",
+  "body": " Example 2: Starting from PDE   Consider , with and .   "
 }
 ]
 
