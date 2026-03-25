@@ -68,7 +68,8 @@
                                     x \amp \text{if } x \in [0,0.5] \\
                                     -x+ 1 \amp \text{if } x \in (0.5, 1]
                                     \end{cases}
-                    </md>.
+                    </md>,
+                    and <m>u_t(x,0) = 0</m>.
                     Consider following the same important steps outlined in the previous problem.
                     
                 </p>
