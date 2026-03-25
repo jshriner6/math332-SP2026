@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "<span class=\"process-math\">\\(\\S 3.5\/3.6\\text{:}\\)<\/span> Solving the Heat and Wave Equations",
-  "body": " : Solving the Heat and Wave Equations   Motivation: Fourier Series        Heat Equation   Solve for , , and , . Consider breaking your work into three important steps:   Use separation of variables to get two ODEs.    Being careful to use the boundary conditions, find all solutions to the space ODE. Unless your boundary conditions are exactly the same as a case you've analyzed previously, don't assume you'll get the same solutions!    Use superposition and a Fourier series to find a particular solution satisfying the initial condition. Then try graphing your solution!        Wave Equation   Solve for , , and , . Consider following the same important steps outlined in the previous problem.    "
+  "body": " : Solving the Heat and Wave Equations   Motivation: Fourier Series        Heat Equation   Solve for , , and , . Consider breaking your work into three important steps:   Use separation of variables to get two ODEs.    Being careful to use the boundary conditions, find all solutions to the space ODE. Unless your boundary conditions are exactly the same as a case you've analyzed previously, don't assume you'll get the same solutions!    Use superposition and a Fourier series to find a particular solution satisfying the initial condition. Then try graphing your solution!        Wave Equation   Solve for , , and , , and . Consider following the same important steps outlined in the previous problem.    "
 },
 {
   "id": "sec-3-5-2",
@@ -664,7 +664,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Wave Equation.",
-  "body": " Wave Equation   Solve for , , and , . Consider following the same important steps outlined in the previous problem.   "
+  "body": " Wave Equation   Solve for , , and , , and . Consider following the same important steps outlined in the previous problem.   "
 },
 {
   "id": "sec-4-1",
