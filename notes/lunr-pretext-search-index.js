@@ -845,6 +845,33 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Example 2: Starting from PDE.",
   "body": " Example 2: Starting from PDE   Consider , with and .   "
+},
+{
+  "id": "sec-FT-1",
+  "level": "1",
+  "url": "sec-FT-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Fourier Transforms: Motivation",
+  "body": " Fourier Transforms: Motivation   Introduction: Fourier Transform   Let's consider again the heat equation, but with a different spatial domain and boundary condition:     Complex Representations   It is often useful to be familiar with alternate representations using complex functions, which come from Euler's identity: .    "
+},
+{
+  "id": "sec-FT-1-2",
+  "level": "2",
+  "url": "sec-FT-1.html#sec-FT-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Introduction: Fourier Transform.",
+  "body": " Introduction: Fourier Transform   Let's consider again the heat equation, but with a different spatial domain and boundary condition:   "
+},
+{
+  "id": "sec-FT-1-3",
+  "level": "2",
+  "url": "sec-FT-1.html#sec-FT-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Complex Representations.",
+  "body": " Complex Representations   It is often useful to be familiar with alternate representations using complex functions, which come from Euler's identity: .   "
 }
 ]
 
