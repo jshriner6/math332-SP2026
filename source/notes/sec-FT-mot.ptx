@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-FT-1">
+        <title>Fourier Transforms: Motivation</title>
+        <exercise workspace="8in">
+            <title>Introduction: Fourier Transform</title>
+            <statement>
+                <p>
+                    Let's consider again the heat equation, but with a different spatial domain and boundary condition:
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Complex Representations</title>
+			<statement>
+				<p>
+				It is often useful to be familiar with alternate representations using complex functions, which come from 
+                Euler's identity:
+                <md>
+                    e^{i\theta} = \cos(\theta) + i\sin(\theta)
+                </md>.
+                
+                
+				</p>
+			</statement>
+      </exercise>
+
+      
+
+      
+
+        </worksheet>
+    </article>
+</pretext>
