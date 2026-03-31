@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-FT-2">
+        <title>Fourier Transforms: Construction</title>
+        <exercise workspace="8in">
+            <title>Construction: Fourier Transform</title>
+            <statement>
+                <p>
+                   Recall, analyzing the heat equation for <m>x \in (-\infty, \infty)</m> led us to the question
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Observations</title>
+			<statement>
+				<p>
+				We've found
+                <md>
+                    f(x) \sim \frac{1}{2\pi} \int_{-\infty}^{\infty} \left(\int_{-\infty}^{\infty} f(s) e^{i\omega s} \text{ ds} \right) e^{-i\omega x} \text{ d}\omega
+                </md>.
+                
+                
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Example: Gaussians</title>
+			<statement>
+				<p>
+				Let <m>f(x) = e^{-kx^2} </m>.
+                
+                
+				</p>
+			</statement>
+      </exercise>
+
+      
+
+      
+
+        </worksheet>
+    </article>
+</pretext>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-FT-3">
+        <title>Fourier Transforms: Heat Equation</title>
+        <exercise workspace="8in">
+            <title>Solutions Using Fourier Transform</title>
+            <statement>
+                <p>
+                   Recall, we motivated Fourier Transforms by looking at 
+                   the heat equation for <m>x \in (-\infty, \infty)</m>:
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Analyzing Solutions: Influence Functions</title>
+			<statement>
+				<p>
+			
+                
+                
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Initial Conditions and Dirac Delta</title>
+			<statement>
+				<p>
+				
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Fundamental Solutions to the Heat Equation</title>
+			<statement>
+				<p>
+				
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Properties of Fourier Transforms and a General Approach</title>
+			<statement>
+				<p>
+				
+				</p>
+			</statement>
+      </exercise>
+
+
+      
+
+        </worksheet>
+    </article>
+</pretext>
