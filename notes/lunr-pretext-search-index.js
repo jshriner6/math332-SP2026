@@ -872,6 +872,96 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Complex Representations.",
   "body": " Complex Representations   It is often useful to be familiar with alternate representations using complex functions, which come from Euler's identity: .   "
+},
+{
+  "id": "sec-FT-2",
+  "level": "1",
+  "url": "sec-FT-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Fourier Transforms: Construction",
+  "body": " Fourier Transforms: Construction   Construction: Fourier Transform   Recall, analyzing the heat equation for led us to the question     Observations   We've found .     Example: Gaussians   Let .    "
+},
+{
+  "id": "sec-FT-2-2",
+  "level": "2",
+  "url": "sec-FT-2.html#sec-FT-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Construction: Fourier Transform.",
+  "body": " Construction: Fourier Transform   Recall, analyzing the heat equation for led us to the question   "
+},
+{
+  "id": "sec-FT-2-3",
+  "level": "2",
+  "url": "sec-FT-2.html#sec-FT-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Observations.",
+  "body": " Observations   We've found .   "
+},
+{
+  "id": "sec-FT-2-4",
+  "level": "2",
+  "url": "sec-FT-2.html#sec-FT-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Gaussians.",
+  "body": " Example: Gaussians   Let .   "
+},
+{
+  "id": "sec-FT-3",
+  "level": "1",
+  "url": "sec-FT-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Fourier Transforms: Heat Equation",
+  "body": " Fourier Transforms: Heat Equation   Solutions Using Fourier Transform   Recall, we motivated Fourier Transforms by looking at the heat equation for :     Analyzing Solutions: Influence Functions        Initial Conditions and Dirac Delta        Fundamental Solutions to the Heat Equation        Properties of Fourier Transforms and a General Approach       "
+},
+{
+  "id": "sec-FT-3-2",
+  "level": "2",
+  "url": "sec-FT-3.html#sec-FT-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Solutions Using Fourier Transform.",
+  "body": " Solutions Using Fourier Transform   Recall, we motivated Fourier Transforms by looking at the heat equation for :   "
+},
+{
+  "id": "sec-FT-3-3",
+  "level": "2",
+  "url": "sec-FT-3.html#sec-FT-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Analyzing Solutions: Influence Functions.",
+  "body": " Analyzing Solutions: Influence Functions      "
+},
+{
+  "id": "sec-FT-3-4",
+  "level": "2",
+  "url": "sec-FT-3.html#sec-FT-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Initial Conditions and Dirac Delta.",
+  "body": " Initial Conditions and Dirac Delta      "
+},
+{
+  "id": "sec-FT-3-5",
+  "level": "2",
+  "url": "sec-FT-3.html#sec-FT-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Fundamental Solutions to the Heat Equation.",
+  "body": " Fundamental Solutions to the Heat Equation      "
+},
+{
+  "id": "sec-FT-3-6",
+  "level": "2",
+  "url": "sec-FT-3.html#sec-FT-3-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Properties of Fourier Transforms and a General Approach.",
+  "body": " Properties of Fourier Transforms and a General Approach      "
 }
 ]
 
