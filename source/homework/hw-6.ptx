@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="hw-6">
+            <title>Homework 6</title>
+        
+        <exercise>
+            <introduction>
+                <p>
+                    For each Sturm-Liouville eigenvalue problem below,
+                    <ol marker="(i)">
+                        <li>
+                            <p>
+                                verify the eigenvalues and eigenfunctions of each problem that you found in Homework 5 satisfy
+                                the first 2 properties of S-L eigenvalue problems given in class. You may use technology
+                                to verify property 2, similar to what was presented in class.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                use technology to represent <m>f(x)=x^2</m> on the appropriate interval with a series using
+                                the eigenfunctions. Include a screenshot of the graph of your series using the first 
+                                <m>10</m> terms.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                use the Minimization Principle and at least one trial function to find and upper bound for
+                                <m>\lambda_1</m>, and verify <m>\lambda_1</m> does indeed satisfy your upper bound.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                       <m>y'' + 2y' + y + \lambda y = 0</m>, <m>y(0)=y(1)=0</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                       <m>(xy')' + \frac{\lambda}{x}y = 0</m>, <m>y(1)= y(e^2)=0</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <introduction>
+                <p>
+                    Consider the ODE
+                    <md>
+                        y'' + 4y=x^2, y'(0)= y'(1) = 0
+                    </md>.
+                    
+                </p>
+            </introduction>
+            <task workspace="3in">
+                <statement>
+                    <p>
+                        Use the method of eigenfunction expansions to find a series solution. You may leave the
+                        series coefficients in integral form.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="3in">
+                <statement>
+                    <p>
+                        Other methods of ODEs can be used to find the explicit solution for this problem to be
+                        <md>
+                            y(x)= \frac{1}{4\sin(2)}\cos(2x)+ \frac{1}{4}x^2 - \frac{1}{8}
+                        </md>.
+                        Graph this solution, along with the first several terms of your series solution, to verify that the
+                        solutions are the same.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        
+       
+            
+    
+        </worksheet>
+        
+
+    </article>
+</pretext>
