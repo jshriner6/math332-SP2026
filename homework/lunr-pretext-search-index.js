@@ -152,6 +152,33 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  For each Sturm-Liouville eigenvalue problem below,   identify the functions , and that make each a Sturm-Liouville eigenvalue problem, and    find the eigenvalues and eigenfunctions of each problem.         , .   For (i), consider using an integrating factor .       , .   For (ii), consider referencing Appendix 12.4 on Cauchy-Euler Equations .    "
+},
+{
+  "id": "hw-6",
+  "level": "1",
+  "url": "hw-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 6",
+  "body": " Homework 6    For each Sturm-Liouville eigenvalue problem below,   verify the eigenvalues and eigenfunctions of each problem that you found in Homework 5 satisfy the first 2 properties of S-L eigenvalue problems given in class. You may use technology to verify property 2, similar to what was presented in class.    use technology to represent on the appropriate interval with a series using the eigenfunctions. Include a screenshot of the graph of your series using the first terms.    use the Minimization Principle and at least one trial function to find and upper bound for , and verify does indeed satisfy your upper bound.         , .       , .       Consider the ODE .     Use the method of eigenfunction expansions to find a series solution. You may leave the series coefficients in integral form.      Other methods of ODEs can be used to find the explicit solution for this problem to be . Graph this solution, along with the first several terms of your series solution, to verify that the solutions are the same.     "
+},
+{
+  "id": "hw-6-2",
+  "level": "2",
+  "url": "hw-6.html#hw-6-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each Sturm-Liouville eigenvalue problem below,   verify the eigenvalues and eigenfunctions of each problem that you found in Homework 5 satisfy the first 2 properties of S-L eigenvalue problems given in class. You may use technology to verify property 2, similar to what was presented in class.    use technology to represent on the appropriate interval with a series using the eigenfunctions. Include a screenshot of the graph of your series using the first terms.    use the Minimization Principle and at least one trial function to find and upper bound for , and verify does indeed satisfy your upper bound.         , .       , .    "
+},
+{
+  "id": "hw-6-3",
+  "level": "2",
+  "url": "hw-6.html#hw-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the ODE .     Use the method of eigenfunction expansions to find a series solution. You may leave the series coefficients in integral form.      Other methods of ODEs can be used to find the explicit solution for this problem to be . Graph this solution, along with the first several terms of your series solution, to verify that the solutions are the same.    "
 }
 ]
 
