@@ -962,6 +962,69 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "Properties of Fourier Transforms and a General Approach.",
   "body": " Properties of Fourier Transforms and a General Approach      "
+},
+{
+  "id": "sec-10",
+  "level": "1",
+  "url": "sec-10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Chapter 10: The Finite Difference Method",
+  "body": " Chapter 10: The Finite Difference Method   Motivation: Numerical Methods        Finite Difference Schemes   Differential equations describe solutions using their derivatives, so we can approximate solutions by approximating derivatives:     Approximation Errors   Recall, a Taylor series representation for centered at is     Approximating Second Derivatives   Since we're looking to approximate PDE solutions, we should also understand how to approximate :     The Finite Difference Method for the Heat Equation   The general approach to applying the method is to discretize time and space:     Stability Criterion for the Heat Equation   What restrictions can we put on and to avoid unstable behavior?    "
+},
+{
+  "id": "sec-10-2",
+  "level": "2",
+  "url": "sec-10.html#sec-10-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Numerical Methods.",
+  "body": " Motivation: Numerical Methods      "
+},
+{
+  "id": "sec-10-3",
+  "level": "2",
+  "url": "sec-10.html#sec-10-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Finite Difference Schemes.",
+  "body": " Finite Difference Schemes   Differential equations describe solutions using their derivatives, so we can approximate solutions by approximating derivatives:   "
+},
+{
+  "id": "sec-10-4",
+  "level": "2",
+  "url": "sec-10.html#sec-10-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Approximation Errors.",
+  "body": " Approximation Errors   Recall, a Taylor series representation for centered at is   "
+},
+{
+  "id": "sec-10-5",
+  "level": "2",
+  "url": "sec-10.html#sec-10-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Approximating Second Derivatives.",
+  "body": " Approximating Second Derivatives   Since we're looking to approximate PDE solutions, we should also understand how to approximate :   "
+},
+{
+  "id": "sec-10-6",
+  "level": "2",
+  "url": "sec-10.html#sec-10-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "The Finite Difference Method for the Heat Equation.",
+  "body": " The Finite Difference Method for the Heat Equation   The general approach to applying the method is to discretize time and space:   "
+},
+{
+  "id": "sec-10-7",
+  "level": "2",
+  "url": "sec-10.html#sec-10-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Stability Criterion for the Heat Equation.",
+  "body": " Stability Criterion for the Heat Equation   What restrictions can we put on and to avoid unstable behavior?   "
 }
 ]
 
