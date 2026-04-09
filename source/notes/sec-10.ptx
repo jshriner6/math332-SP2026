@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-10">
+        <title>Chapter 10: The Finite Difference Method</title>
+        <exercise workspace="8in">
+            <title>Motivation: Numerical Methods</title>
+            <statement>
+                <p>
+                   
+                </p>
+            </statement>
+            
+        </exercise>
+
+        <exercise workspace="8in">
+            <title>Finite Difference Schemes</title>
+			<statement>
+				<p>
+                Differential equations describe solutions using their derivatives, so we can approximate solutions by 
+                approximating derivatives:
+                
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Approximation Errors</title>
+			<statement>
+				<p>
+				Recall, a Taylor series representation for <m>u</m> centered at <m>x</m> is
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>Approximating Second Derivatives</title>
+			<statement>
+				<p>
+				Since we're looking to approximate PDE solutions, we should also understand how to approximate <m>u_{xx}</m>:
+				</p>
+			</statement>
+      </exercise>
+
+      <exercise workspace="8in">
+            <title>The Finite Difference Method for the Heat Equation</title>
+			<statement>
+				<p>
+				The general approach to applying the method is to discretize time and space:
+				</p>
+			</statement>
+      </exercise>
+
+       <exercise workspace="8in">
+            <title>Stability Criterion for the Heat Equation</title>
+			<statement>
+				<p>
+				What restrictions can we put on <m>\Delta x</m> and <m>\Delta t</m> to avoid unstable behavior?
+				</p>
+			</statement>
+      </exercise>
+
+
+      
+
+        </worksheet>
+    </article>
+</pretext>

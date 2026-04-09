@@ -53,6 +53,8 @@
 
   <xi:include href="./notes/sec-FT-heat.ptx" xpointer="sec-FT-3" />
 
+  <xi:include href="./notes/sec-10.ptx" xpointer="sec-10" />
+
    <!--      <xi:include href="./notes/sec-2-2-1.ptx" xpointer="sec-2-2-1" /> 
     <xi:include href="./notes/sec-2-2-1-sols.ptx" xpointer="sec-2-2-1-sols" /> 
 
